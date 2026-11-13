@@ -1,0 +1,1094 @@
+    /* St Stephen Luzira C.O.U - Home page. Edit colours in :root. Layout follows the benchmark site's structure. */
+    :root {
+        --red: #b4242c;
+        --purple: #4f127f;
+        --dark: #0e1020;
+        --dark2: #1a1030;
+        --light: #f6f4f8;
+        --ink: #161625;
+        --muted: #5d5d72;
+        --white: #fff;
+        --head: "Poppins", "Segoe UI", Arial, sans-serif;
+        --r: 16px
+    }
+
+    * {
+        box-sizing: border-box
+    }
+
+    html {
+        scroll-behavior: smooth
+    }
+
+    body {
+        margin: 0;
+        font: 16px/1.7 var(--head);
+        color: var(--ink);
+        background: #fff
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none
+    }
+
+    img {
+        max-width: 100%;
+        display: block
+    }
+
+    :focus-visible {
+        outline: 3px solid #ffb4b8;
+        outline-offset: 3px
+    }
+
+    .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+        line-height: 1.1;
+        font-weight: 800
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 13px 30px;
+        border-radius: 999px;
+        background: var(--red);
+        color: #fff;
+        font-weight: 600;
+        font-size: .92rem;
+        border: 2px solid var(--red);
+        cursor: pointer;
+        transition: transform .2s, background .2s
+    }
+
+    .btn:hover {
+        transform: scale(1.05)
+    }
+
+    .btn.ghost {
+        background: transparent;
+        border-color: #fff
+    }
+
+    .btn.line {
+        background: transparent;
+        color: var(--ink);
+        border-color: var(--ink)
+    }
+
+    .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px
+    }
+
+    .skip {
+        position: absolute;
+        left: -999px;
+        top: 8px;
+        background: #fff;
+        color: #000;
+        padding: 10px 16px;
+        z-index: 200
+    }
+
+    .skip:focus {
+        left: 8px
+    }
+
+    /* header: transparent over hero, solid after scroll */
+    .hdr {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        color: #fff;
+        transition: background .3s, box-shadow .3s
+    }
+
+    .hdr.solid {
+        background: var(--dark);
+        box-shadow: 0 4px 20px #0006
+    }
+
+    .hdr .wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        height: 84px
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 800;
+        font-size: 1.05rem;
+        line-height: 1.1
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px
+    }
+
+    .logo small {
+        display: block;
+        font-weight: 500;
+        font-size: .68rem;
+        opacity: .8;
+        letter-spacing: .04em
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2px;
+        margin: 0;
+        padding: 0
+    }
+
+    nav li {
+        position: relative
+    }
+
+    nav a,
+    nav .nv {
+        display: block;
+        padding: 10px 13px;
+        font: 500 .9rem var(--head);
+        color: inherit;
+        background: none;
+        border: 0;
+        cursor: pointer
+    }
+
+    nav a:hover,
+    nav .nv:hover,
+    nav a.on {
+        color: #ff9aa0
+    }
+
+    .dd {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 210px;
+        background: var(--dark);
+        border-radius: 12px;
+        padding: 8px;
+        display: none;
+        box-shadow: 0 14px 30px #0008
+    }
+
+    .dd a:hover {
+        background: #ffffff14;
+        border-radius: 8px
+    }
+
+    li:hover>.dd,
+    li:focus-within>.dd {
+        display: block
+    }
+
+    .right {
+        display: flex;
+        gap: 10px;
+        align-items: center
+    }
+
+    #mb {
+        display: none;
+        background: none;
+        border: 1px solid #fff7;
+        color: #fff;
+        border-radius: 10px;
+        padding: 8px 14px;
+        font: inherit
+    }
+
+    /* hero slideshow */
+    .hero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        color: #fff;
+        overflow: hidden;
+        background: var(--dark)
+    }
+
+    .slide {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: opacity 1.2s;
+        background: var(--bg, none) center/cover, var(--g)
+    }
+
+    .slide.on {
+        opacity: 1
+    }
+
+    .hero:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(0deg, #0e1020f2 8%, #0e102066 60%, #0e102099)
+    }
+
+    .hero .wrap {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding-bottom: 90px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 30px;
+        align-items: end
+    }
+
+    .hero h1 {
+        font-size: clamp(2.6rem, 7vw, 5.6rem);
+        min-height: 2.2em;
+        transition: opacity .5s, transform .5s
+    }
+
+    .hero h1.out {
+        opacity: 0;
+        transform: translateY(14px)
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        margin: 16px 0 0;
+        max-width: 40ch;
+        color: #e6e0ee
+    }
+
+    .hero .btns {
+        justify-content: flex-end
+    }
+
+    .hero .btn {
+        padding: 16px 38px;
+        font-size: 1rem
+    }
+
+    /* mandate */
+    .mandate {
+        padding: 100px 0 70px;
+        background: var(--light);
+        text-align: center
+    }
+
+    .mandate h2 {
+        font-size: clamp(2.2rem, 6vw, 4.6rem)
+    }
+
+    .mandate .to {
+        display: block;
+        font-weight: 300;
+        font-size: clamp(1.2rem, 3vw, 2rem);
+        margin: 6px 0;
+        color: var(--muted)
+    }
+
+    .mandate h2 em {
+        font-style: normal;
+        color: var(--red)
+    }
+
+    .welcome {
+        font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+        font-weight: 300;
+        color: var(--muted);
+        margin: 26px 0 56px
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 22px;
+        text-align: left
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 290px;
+        padding: 30px;
+        border-radius: var(--r);
+        color: #fff;
+        background: linear-gradient(180deg, #0000 20%, #000a), linear-gradient(135deg, var(--a), var(--b));
+        transition: transform .3s
+    }
+
+    .box:hover {
+        transform: translateY(-8px)
+    }
+
+    .box h3 {
+        font-size: 1.5rem;
+        margin-bottom: 8px
+    }
+
+    .box p {
+        margin: 0 0 14px;
+        color: #eee;
+        font-size: .93rem
+    }
+
+    .box span {
+        font-weight: 700;
+        font-size: .9rem;
+        border-bottom: 2px solid #fff;
+        align-self: flex-start
+    }
+
+    /* gradient sections */
+    .sec {
+        padding: 96px 0;
+        color: #fff;
+        background: linear-gradient(135deg, var(--dark), var(--dark2) 60%, var(--purple))
+    }
+
+    .sec.red {
+        background: linear-gradient(135deg, #2a0a10, var(--dark) 55%, #3a1030)
+    }
+
+    .sec h2 {
+        font-size: clamp(2rem, 5vw, 3.6rem)
+    }
+
+    .sec .sub {
+        color: #cfc8dc;
+        margin: 10px 0 0;
+        max-width: 46ch
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 38px
+    }
+
+    .eyebrow {
+        font-weight: 700;
+        letter-spacing: .12em;
+        font-size: .78rem;
+        color: #ff9aa0;
+        margin-bottom: 14px
+    }
+
+    /* carousels */
+    .car {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 16px;
+        scrollbar-width: thin
+    }
+
+    .car>* {
+        flex: 0 0 min(86%, 420px);
+        scroll-snap-align: start
+    }
+
+    .flyer {
+        aspect-ratio: 16/9;
+        border-radius: var(--r);
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background: linear-gradient(180deg, #0000 30%, #000b), linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    .flyer b {
+        font-size: 1.3rem
+    }
+
+    .flyer span {
+        font-size: .85rem;
+        color: #ffd3d6
+    }
+
+    .mc {
+        aspect-ratio: 3/4;
+        border-radius: var(--r);
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background: linear-gradient(180deg, #0000 30%, #000c), linear-gradient(160deg, var(--a), var(--b));
+        transition: transform .3s
+    }
+
+    .mc:hover {
+        transform: scale(1.03)
+    }
+
+    .mc h3 {
+        font-size: 1.25rem
+    }
+
+    .mc span {
+        font-size: .85rem;
+        color: #ffd3d6
+    }
+
+    .split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center
+    }
+
+    .pic {
+        min-height: 440px;
+        border-radius: var(--r);
+        background: var(--bg, none) center/cover, linear-gradient(160deg, var(--red), var(--purple))
+    }
+
+    .sec p.body {
+        color: #d9d2e6;
+        margin: 20px 0 28px;
+        max-width: 52ch
+    }
+
+    /* worship */
+    .worship {
+        padding: 96px 0;
+        background: #fff;
+        text-align: center
+    }
+
+    .worship h2 {
+        font-size: clamp(2rem, 5vw, 3.6rem)
+    }
+
+    .times {
+        display: inline-grid;
+        gap: 6px;
+        margin: 22px 0 30px;
+        font-size: 1.15rem;
+        color: var(--muted)
+    }
+
+    .times b {
+        color: var(--ink)
+    }
+
+    .worship .btns {
+        justify-content: center
+    }
+
+    .just {
+        font-size: clamp(1.6rem, 5vw, 3.6rem);
+        font-weight: 800;
+        margin: 70px 0 30px;
+        color: var(--red)
+    }
+
+    .band {
+        min-height: 340px;
+        border-radius: var(--r);
+        display: grid;
+        place-items: center;
+        background: var(--bg, none) center/cover, linear-gradient(135deg, var(--dark), var(--purple) 60%, var(--red))
+    }
+
+    .play {
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        background: #fff;
+        color: var(--red);
+        display: grid;
+        place-items: center;
+        font-size: 1.8rem;
+        padding-left: 6px
+    }
+
+    /* devotional + sermon */
+    .devo {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .devo>div {
+        padding: 90px 60px
+    }
+
+    .devo .l {
+        background: linear-gradient(135deg, var(--purple), var(--dark2));
+        color: #fff
+    }
+
+    .devo .r {
+        background: var(--light);
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .devo h2 {
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        margin-bottom: 14px
+    }
+
+    .news {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap
+    }
+
+    .news input {
+        flex: 1;
+        min-width: 180px;
+        padding: 13px 18px;
+        border-radius: 999px;
+        border: 1px solid #ccc;
+        font: inherit
+    }
+
+    .sermon {
+        background: var(--dark)
+    }
+
+    .sermon .split {
+        grid-template-columns: .85fr 1.15fr;
+        gap: 48px
+    }
+
+    .cover {
+        aspect-ratio: 16/10;
+        border-radius: var(--r);
+        display: grid;
+        place-items: center;
+        background: var(--bg, none) center/cover, linear-gradient(135deg, var(--purple), var(--red))
+    }
+
+    .embed {
+        background: #1db95422;
+        border: 1px solid #fff3;
+        border-radius: 14px;
+        padding: 26px;
+        color: #cfc8dc
+    }
+
+    .connect {
+        padding: 80px 0;
+        background: var(--light);
+        text-align: center
+    }
+
+    .connect h3 {
+        font-size: 2rem;
+        margin-bottom: 8px
+    }
+
+    .connect p {
+        color: var(--muted);
+        margin: 0 0 24px
+    }
+
+    /* footer */
+    footer {
+        background: var(--dark);
+        color: #cfc8dc;
+        padding: 70px 0 26px
+    }
+
+    .fg {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr 1.4fr;
+        gap: 34px
+    }
+
+    footer h4 {
+        color: #fff;
+        margin-bottom: 12px;
+        font-size: 1.05rem
+    }
+
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+
+    footer li {
+        margin: 6px 0
+    }
+
+    footer a:hover {
+        color: #ff9aa0
+    }
+
+    .soc {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 14px
+    }
+
+    .soc a {
+        border: 1px solid #fff4;
+        border-radius: 999px;
+        padding: 7px 16px;
+        font-size: .85rem
+    }
+
+    .copy {
+        border-top: 1px solid #fff2;
+        margin-top: 38px;
+        padding-top: 18px;
+        font-size: .85rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px
+    }
+
+    /* floating */
+    #bub {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 90;
+        background: var(--purple);
+        color: #fff;
+        border: 0;
+        border-radius: 40px;
+        padding: 12px 26px;
+        font: 700 .95rem var(--head);
+        box-shadow: 0 6px 20px #0006;
+        cursor: pointer;
+        text-align: center;
+        line-height: 1.3
+    }
+
+    #bub small {
+        display: block;
+        font-weight: 400;
+        font-size: .78rem
+    }
+
+    #pan {
+        position: fixed;
+        right: 20px;
+        bottom: 92px;
+        z-index: 90;
+        width: min(360px, calc(100vw - 40px));
+        background: #fff;
+        color: var(--ink);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 14px 40px #0007;
+        display: none
+    }
+
+    #pan.open {
+        display: block
+    }
+
+    #pan h3 {
+        margin-bottom: 12px
+    }
+
+    #pan input {
+        width: 100%;
+        padding: 11px 14px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font: inherit
+    }
+
+    #top {
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 90;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 0;
+        background: var(--red);
+        color: #fff;
+        font-size: 1.1rem;
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .3s
+    }
+
+    #top.show {
+        opacity: 1;
+        pointer-events: auto
+    }
+
+    .rv {
+        opacity: 0;
+        transform: translateY(24px);
+        transition: opacity .7s, transform .7s
+    }
+
+    .rv.in {
+        opacity: 1;
+        transform: none
+    }
+
+    @media(max-width:960px) {
+        #mb {
+            display: block
+        }
+
+        .right .btn {
+            display: none
+        }
+
+        nav {
+            position: absolute;
+            top: 84px;
+            left: 0;
+            right: 0;
+            background: var(--dark);
+            display: none;
+            padding: 10px 24px 22px;
+            max-height: 75vh;
+            overflow: auto
+        }
+
+        nav.open {
+            display: block
+        }
+
+        nav ul {
+            flex-direction: column
+        }
+
+        .dd {
+            position: static;
+            display: block;
+            background: none;
+            box-shadow: none;
+            padding: 0 0 0 14px
+        }
+
+        .hero .wrap,
+        .split,
+        .sermon .split,
+        .devo,
+        .fg {
+            grid-template-columns: 1fr
+        }
+
+        .hero .btns {
+            justify-content: flex-start
+        }
+
+        .devo>div {
+            padding: 56px 24px
+        }
+
+        .sec,
+        .worship {
+            padding: 64px 0
+        }
+
+        .mandate {
+            padding: 70px 0 50px
+        }
+    }
+
+    @media(prefers-reduced-motion:reduce) {
+        html {
+            scroll-behavior: auto
+        }
+
+        .rv {
+            opacity: 1;
+            transform: none;
+            transition: none
+        }
+
+        .slide {
+            transition: none
+        }
+
+        .hero h1 {
+            transition: none
+        }
+    }
+
+    .ico {
+        background: none;
+        border: 0;
+        color: inherit;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font: inherit
+    }
+
+    .ico:hover {
+        background: #ffffff22
+    }
+
+    .sr {
+        position: fixed;
+        inset: 0;
+        z-index: 300;
+        background: #0e1020f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        color: #fff
+    }
+
+    .sr[hidden] {
+        display: none
+    }
+
+    .sr form {
+        display: flex;
+        gap: 12px;
+        width: min(720px, 100%)
+    }
+
+    .sr input {
+        flex: 1;
+        padding: 18px 24px;
+        border-radius: 999px;
+        border: 0;
+        font: inherit;
+        font-size: 1.1rem
+    }
+
+    .sr #sx {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        font-size: 1.4rem
+    }
+
+    /* Hero slideshow */
+    .slide:nth-child(1) {
+        --bg: url('../assets/images/hero/ch-hero1.png')
+    }
+
+    .slide:nth-child(2) {
+        --bg: url('../assets/images/hero/ch-hero2.jpg')
+    }
+
+    .slide:nth-child(3) {
+        --bg: url('../assets/images/hero/ch-hero3.jpg')
+    }
+
+    /* Ministry cards */
+    .mc:nth-child(1) {
+        background: linear-gradient(180deg, #0000 30%, #000c), url('../assets/images/ministries/sunday-school.jpg') center/cover, linear-gradient(160deg, var(--a), var(--b))
+    }
+
+    .mc:nth-child(2) {
+        background: linear-gradient(180deg, #0000 30%, #000c), url('../assets/images/ministries/Youth-ya.jpg') center/cover, linear-gradient(160deg, var(--a), var(--b))
+    }
+
+    .mc:nth-child(3) {
+        background: linear-gradient(180deg, #0000 30%, #000c), url('../assets/images/ministries/mu.jpg') center/cover, linear-gradient(160deg, var(--a), var(--b))
+    }
+
+    .mc:nth-child(4) {
+        background: linear-gradient(180deg, #0000 30%, #000c), url('../assets/images/ministries/fu.png') center/cover, linear-gradient(160deg, var(--a), var(--b))
+    }
+
+    .mc:nth-child(5) {
+        background: linear-gradient(180deg, #0000 30%, #000c), url('../assets/images/ministries/fellowships.jpg') center/cover, linear-gradient(160deg, var(--a), var(--b))
+    }
+
+    /* Event flyers */
+    .flyer:nth-child(1) {
+        background: linear-gradient(180deg, #0000 30%, #000b), url('../assets/images/upcoming/harvest-up1.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    .flyer:nth-child(2) {
+        background: linear-gradient(180deg, #0000 30%, #000b), url('../assets/images/upcoming/carols-up2.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    .flyer:nth-child(3) {
+        background: linear-gradient(180deg, #0000 30%, #000b), url('../assets/images/upcoming/thanksgiving-up3.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    /* Three cards under the hero */
+    .box:nth-child(1) {
+        background: linear-gradient(180deg, #0000 20%, #000a), url('../assets/images/section/wl-section1.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    .box:nth-child(2) {
+        background: linear-gradient(180deg, #0000 20%, #000a), url('../assets/images/section/wl-section2.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    .box:nth-child(3) {
+        background: linear-gradient(180deg, #0000 20%, #000a), url('../assets/images/section/wl-section3.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
+    }
+
+    /* About St stephen Luzira C.O.U */
+    .pic {
+        --bg: url('../assets/images/about/ch-about1.png');
+        background-position: center top
+    }
+
+    /* Auto-scrolling events carousel: one card fully visible, the next peeking in */
+    .car.auto {
+        position: relative;
+        scrollbar-width: none;
+        padding-bottom: 0
+    }
+
+    .car.auto::-webkit-scrollbar {
+        display: none
+    }
+
+    .car.auto>* {
+        flex: 0 0 72%
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 22px
+    }
+
+    .dots button {
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: 0;
+        border-radius: 6px;
+        background: #ffffff55;
+        cursor: pointer;
+        transition: width .3s, background .3s
+    }
+
+    .dots button.on {
+        width: 28px;
+        background: #fff
+    }
+
+    @media(max-width:960px) {
+        .car.auto>* {
+            flex: 0 0 84%
+        }
+    }
+
+    /* YouTube overview video */
+    .vid {
+        position: relative;
+        aspect-ratio: 16/9;
+        border-radius: var(--r);
+        overflow: hidden;
+        background: var(--dark);
+        box-shadow: 0 20px 50px #0003
+    }
+
+    .vid iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0
+    }
+
+    /* Departments & Fellowships: one big card, next one peeking, looping */
+    .car.auto.feat .mc {
+        aspect-ratio: 16/9
+    }
+
+    .car.auto.feat .mc h3 {
+        font-size: 1.7rem
+    }
+
+    .car.auto.feat::after {
+        content: "";
+        flex: 0 0 40%
+    }
+
+    @media(max-width:960px) {
+        .car.auto.feat .mc {
+            aspect-ratio: 4/3
+        }
+
+        .car.auto.feat .mc h3 {
+            font-size: 1.4rem
+        }
+    }
+
+    /* Latest sermon text */
+    .sermon .meta {
+        margin: 14px 0 0;
+        font-size: .9rem;
+        font-weight: 500;
+        color: #ff9aa0
+    }
+
+    .pts {
+        margin: 0 0 28px;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 10px
+    }
+
+    .pts li {
+        position: relative;
+        padding-left: 26px;
+        color: #d9d2e6
+    }
+
+    .pts li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: .6em;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--red)
+    }
+
+    /* Latest sermon: balanced spacing */
+    .sermon h2 {
+        font-size: clamp(1.8rem, 3.2vw, 2.6rem)
+    }
+
+    .sermon p.body {
+        max-width: none
+    }
+
+    .sermon .vid {
+        box-shadow: 0 24px 60px #0008
+    }

@@ -1,0 +1,338 @@
+/* Who We Are page: extras only. Loaded AFTER style.css, which still supplies header, footer, buttons, .sec, .split, .pic, .connect. */
+nav .nv.on {
+    color: #ff9aa0
+}
+
+.ph {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    background: var(--bg, none) center/cover, linear-gradient(160deg, var(--dark), var(--dark2) 55%, var(--purple))
+}
+
+.ph:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, #0e1020ee 5%, #0e102066)
+}
+
+.ph .wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 56px
+}
+
+.ph h1 {
+    font-size: clamp(2.4rem, 6vw, 4.4rem)
+}
+
+.crumbs {
+    margin-top: 12px;
+    font-size: .92rem;
+    color: #d6cfe3
+}
+
+.crumbs a:hover {
+    color: #ff9aa0
+}
+
+.crumbs i {
+    margin: 0 10px;
+    font-style: normal;
+    opacity: .6
+}
+
+.ab-pic {
+    min-height: 380px
+}
+
+.lt {
+    padding: 96px 0;
+    background: var(--light)
+}
+
+.lt h2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-bottom: 16px
+}
+
+.lt p {
+    color: var(--muted);
+    margin: 0 0 14px
+}
+
+.sec .lead {
+    color: #d9d2e6;
+    margin: 0 0 28px;
+    max-width: 60ch
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px
+}
+
+.tile {
+    background: #ffffff12;
+    border: 1px solid #fff2;
+    border-radius: var(--r);
+    padding: 28px
+}
+
+.tile h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px
+}
+
+.tile p {
+    margin: 0;
+    color: #d9d2e6
+}
+
+.acc {
+    display: grid;
+    gap: 12px;
+    max-width: 860px
+}
+
+.acc details {
+    background: #ffffff10;
+    border: 1px solid #fff2;
+    border-radius: 14px;
+    padding: 0 22px
+}
+
+.acc summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 18px 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px
+}
+
+.acc summary::-webkit-details-marker {
+    display: none
+}
+
+.acc summary::after {
+    content: "+";
+    font-size: 1.4rem;
+    color: #ff9aa0
+}
+
+.acc details[open] summary::after {
+    content: "–"
+}
+
+.acc .ref {
+    font-size: .85rem;
+    color: #ff9aa0;
+    margin: 0
+}
+
+.acc details p {
+    margin: 6px 0 18px;
+    color: #d9d2e6
+}
+
+.clergy .card-c {
+    background: var(--white);
+    color: var(--ink);
+    border-radius: var(--r);
+    overflow: hidden;
+    box-shadow: 0 10px 30px #0003
+}
+
+.clergy .ph-c {
+    aspect-ratio: 3/4;
+    background: var(--bg, none) center top/cover, linear-gradient(160deg, var(--purple), var(--red))
+}
+
+.clergy .in {
+    padding: 30px
+}
+
+.clergy h3 {
+    font-size: 1.2rem
+}
+
+.clergy .role {
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: var(--red);
+    margin: 4px 0 10px
+}
+
+.clergy .in p {
+    margin: 0;
+    color: var(--muted);
+    font-size: .95rem
+}
+
+.join {
+    padding: 90px 0;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(135deg, var(--red), var(--purple))
+}
+
+.join h2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-bottom: 14px
+}
+
+.join p {
+    max-width: 60ch;
+    margin: 0 auto 26px
+}
+
+.join .btn {
+    background: #fff;
+    color: var(--red);
+    border-color: #fff
+}
+
+.big {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--red);
+    text-align: center;
+    padding: 70px 24px 0
+}
+
+/* Photos: drop files in assets/images/about/ - gradients show until then */
+.ph {
+    --bg: url('../assets/images/about/about-img1.jpg')
+}
+
+.ab-1 {
+    --bg: url('../assets/images/about/ch-about1.png')
+}
+
+.ab-2 {
+    --bg: url('../assets/images/about/services.jpg')
+}
+
+.c1 {
+    --bg: url('../assets/images/about/clergy-1.jpg')
+}
+
+.c2 {
+    --bg: url('../assets/images/about/clergy-2.jpg')
+}
+
+.c3 {
+    --bg: url('../assets/images/clergy/lay-reader.JPG')
+}
+
+@media(max-width:960px) {
+    .ph {
+        min-height: 320px
+    }
+
+    .ph .wrap {
+        padding-top: 120px
+    }
+
+    .lt,
+    .join {
+        padding: 60px 0
+    }
+}
+
+/* Jump links clear the fixed header */
+html {
+    scroll-padding-top: 90px
+}
+
+/* Clergy: read-more link on cards + full profile page */
+.card-c .more {
+    display: inline-block;
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: .9rem;
+    color: var(--red);
+    border-bottom: 2px solid var(--red)
+}
+
+.cd {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 56px;
+    align-items: start
+}
+
+.cd-photo {
+    aspect-ratio: 3/4;
+    border-radius: var(--r);
+    background: var(--bg, none) center top/cover, linear-gradient(160deg, var(--purple), var(--red));
+    box-shadow: 0 20px 50px #0003;
+    position: sticky;
+    top: 110px
+}
+
+.cd .role {
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: var(--red);
+    margin-bottom: 6px
+}
+
+.cd h2 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    margin-bottom: 18px
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 0 0 26px
+}
+
+.facts div {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 14px #16162514
+}
+
+.facts dt {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    color: var(--red);
+    text-transform: uppercase
+}
+
+.facts dd {
+    margin: 2px 0 0;
+    font-weight: 600
+}
+
+.cd .cd-text>p {
+    color: var(--ink);
+    margin: 0 0 16px
+}
+
+@media(max-width:960px) {
+    .cd {
+        grid-template-columns: 1fr;
+        gap: 28px
+    }
+
+    .cd-photo {
+        position: static;
+        max-width: 380px
+    }
+}

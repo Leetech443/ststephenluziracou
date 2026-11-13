@@ -1,0 +1,33 @@
+[
+  {
+    "id": "vicar",
+    "name": "Rev. Full Name",
+    "role": "VICAR",
+    "photo": "assets/images/clergy/vicar.jpg",
+    "short": "Replace with a two-sentence introduction.",
+    "facts": [["Ordained", "Year"], ["Serving at St Stephen since", "Year"], ["Education", "Degree, institution"], ["Family", "Married with children"]],
+    "bio": [
+      "Paste the first paragraph of the full biography here: background, calling and early ministry.",
+      "Paste the second paragraph here: ministry at St Stephen Luzira and vision for the parish.",
+      "Paste any further paragraphs here: family, interests and a closing word."
+    ]
+  },
+  {
+    "id": "assistant-vicar",
+    "name": "Rev. Full Name",
+    "role": "ASSISTANT VICAR",
+    "photo": "assets/images/clergy/assistant-vicar.jpg",
+    "short": "Replace with a two-sentence introduction.",
+    "facts": [["Ordained", "Year"], ["Serving at St Stephen since", "Year"]],
+    "bio": ["Paste the full biography here, one paragraph per line.", "Add as many paragraphs as you need."]
+  },
+  {
+    "id": "lay-reader",
+    "name": "Full Name",
+    "role": "LAY READER",
+    "photo": "assets/images/clergy/lay-reader.jpg",
+    "short": "Replace with a two-sentence introduction.",
+    "facts": [["Licensed", "Year"], ["Serving since", "Year"]],
+    "bio": ["Paste the full biography here, one paragraph per line.", "Add as many paragraphs as you need."]
+  }
+]

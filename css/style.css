@@ -1,4 +1,4 @@
-    /* St Stephen Luzira C.O.U - Home page. Edit colours in :root. Layout follows the benchmark site's structure. */
+    /* St Stephen's Luzira C.O.U - Home page. Edit colours in :root. Layout follows the benchmark site's structure. */
     :root {
         --red: #b4242c;
         --purple: #4f127f;
@@ -113,6 +113,8 @@
         right: 0;
         z-index: 100;
         color: #fff;
+        background: var(--dark);
+        box-shadow: 0 4px 20px #0006;
         transition: background .3s, box-shadow .3s
     }
 
@@ -126,27 +128,27 @@
         align-items: center;
         justify-content: space-between;
         gap: 20px;
-        height: 84px
+        height: 100px
     }
 
     .logo {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 14px;
         font-weight: 800;
-        font-size: 1.05rem;
+        font-size: 1.25rem;
         line-height: 1.1
     }
 
     .logo img {
-        width: 40px;
-        height: 40px
+        width: 60px;
+        height: 60px
     }
 
     .logo small {
         display: block;
         font-weight: 500;
-        font-size: .68rem;
+        font-size: .76rem;
         opacity: .8;
         letter-spacing: .04em
     }
@@ -185,7 +187,11 @@
         top: 100%;
         left: 0;
         min-width: 210px;
-        background: var(--dark);
+        /* Changed from var(--dark) to 85% opacity */
+        background: rgba(14, 16, 32, 0.65); 
+        /* Adds a modern blur effect to the background */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
         border-radius: 12px;
         padding: 8px;
         display: none;
@@ -193,7 +199,7 @@
     }
 
     .dd a:hover {
-        background: #ffffff14;
+        background: #ffffff22;
         border-radius: 8px
     }
 
@@ -225,6 +231,7 @@
         display: flex;
         align-items: flex-end;
         color: #fff;
+        text-shadow: 0 2px 14px #0009;
         overflow: hidden;
         background: var(--dark)
     }
@@ -234,7 +241,7 @@
         inset: 0;
         opacity: 0;
         transition: opacity 1.2s;
-        background: var(--bg, none) center/cover, var(--g)
+        background: var(--bg) center/cover no-repeat, var(--dark)
     }
 
     .slide.on {
@@ -245,7 +252,8 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(0deg, #0e1020f2 8%, #0e102066 60%, #0e102099)
+        background: linear-gradient(0deg, #0e1020cc 0%, #0e102000 55%);
+        pointer-events: none;
     }
 
     .hero .wrap {
@@ -274,7 +282,8 @@
         font-size: 1.2rem;
         margin: 16px 0 0;
         max-width: 40ch;
-        color: #e6e0ee
+        color: #e6e0ee;
+        text-shadow: 0 2px 14px #0009;
     }
 
     .hero .btns {
@@ -391,7 +400,7 @@
     .eyebrow {
         font-weight: 700;
         letter-spacing: .12em;
-        font-size: .78rem;
+        font-size: 1.125rem;
         color: #ff9aa0;
         margin-bottom: 14px
     }
@@ -484,16 +493,56 @@
         font-size: clamp(2rem, 5vw, 3.6rem)
     }
 
-    .times {
-        display: inline-grid;
-        gap: 6px;
-        margin: 22px 0 30px;
-        font-size: 1.15rem;
-        color: var(--muted)
+    /* Service Lineup */
+    .lineup {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 24px;
+        max-width: 960px;
+        margin: 44px auto 36px;
+        text-align: left;
     }
 
-    .times b {
-        color: var(--ink)
+    .service-card {
+        background: var(--light);
+        border-radius: var(--r);
+        padding: 32px 28px;
+        border: 1px solid #e2dce8;
+        transition: transform .3s, box-shadow .3s;
+    }
+
+    .service-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px #16162512;
+    }
+
+    .service-card .day {
+        font-weight: 700;
+        color: var(--red);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        margin-bottom: 6px;
+    }
+
+    .service-card h3 {
+        font-size: 1.4rem;
+        color: var(--ink);
+        margin-bottom: 6px;
+    }
+
+    .service-card .time {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--purple);
+        margin-bottom: 16px;
+    }
+
+    .service-card .desc {
+        font-size: 0.95rem;
+        color: var(--muted);
+        margin: 0;
+        line-height: 1.6;
     }
 
     .worship .btns {
@@ -768,7 +817,7 @@
 
         nav {
             position: absolute;
-            top: 84px;
+            top: 100px;
             left: 0;
             right: 0;
             background: var(--dark);
@@ -955,7 +1004,7 @@
         background: linear-gradient(180deg, #0000 20%, #000a), url('../assets/images/section/wl-section3.jpg') center/cover, linear-gradient(135deg, var(--a), var(--b))
     }
 
-    /* About St stephen Luzira C.O.U */
+    /* About St Stephen's Luzira C.O.U */
     .pic {
         --bg: url('../assets/images/about/ch-about1.png');
         background-position: center top
@@ -1066,7 +1115,9 @@
     .pts li {
         position: relative;
         padding-left: 26px;
-        color: #d9d2e6
+        color: #d9d2e6;
+        text-align: justify;
+        hyphens: auto;
     }
 
     .pts li::before {
@@ -1086,7 +1137,9 @@
     }
 
     .sermon p.body {
-        max-width: none
+        max-width: none;
+        text-align: justify;
+        hyphens: auto;
     }
 
     .sermon .vid {

@@ -1,23 +1,44 @@
 [
   {
-    "title": "Sunday Worship Service",
-    "date": "2026-06-05T09:00:00",
-    "time": "9:00 AM - 11:30 AM",
-    "location": "Main Sanctuary",
-    "description": "Join us for our uplifting weekly worship service and fellowship."
+    "title": "The Mystery of Grace – Sunday Series",
+    "date": "2026-11-14T09:00:00",
+    "endDate": "2026-11-29T11:00:00",
+    "time": "9:00 am - 11:00 am",
+    "location": "New Covenant Assembly Main Campus 2620 22 Street NE, Calgary, Alberta, Canada",
+    "excerpt": "As we journey through November, our focus at New Covenant Assembly is on Grace. Join us for The Mystery of Grace, a special Sunday teaching series exploring the depth, power, and transforming work of God's grace in our lives. Throughout this series, we will discover a deeper understanding of God's unmerited favour, His divine provision,...",
+    "image": "assets/images/upcoming/harvest-up1.jpg",
+    "featured": false,
+    "url": "#"
   },
   {
-    "title": "Youth Ministry Gathering",
-    "date": "2026-06-08T16:00:00",
-    "time": "4:00 PM - 6:00 PM",
-    "location": "Youth Hall",
-    "description": "An interactive session filled with games, worship, and discussion for teens."
+    "title": "Christmas Carols & Candlelight Service",
+    "date": "2026-11-14T09:00:00",
+    "endDate": "2026-11-29T11:00:00",
+    "time": "2:00 pm - 6:00 pm",
+    "location": "Mubuya Church of Uganda",
+    "excerpt": "As we journey through November, our focus at New Covenant Assembly is on Grace. Join us for The Mystery of Grace, a special Sunday teaching series exploring the depth, power, and transforming work of God's grace in our lives. Throughout this series, we will discover a deeper understanding of God's unmerited favour, His divine provision,...",
+    "image": "assets/images/upcoming/carols-up2.jpg",
+    "featured": true,
+    "url": "#"
   },
   {
-    "title": "Community Outreach & Food Drive",
-    "date": "2026-06-15T10:00:00",
-    "time": "10:00 AM - 2:00 PM",
-    "location": "Community Center",
-    "description": "Helping local families in need through food distribution and support."
+    "title": "Leadership 101 & Hangout with Pastor",
+    "date": "2026-11-21T15:00:00",
+    "time": "3:00 pm - 8:00 pm",
+    "location": "New Covenant Assembly Main Campus 2620 22 Street NE, Calgary, Alberta, Canada",
+    "excerpt": "Are you new to New Covenant Assembly (NCA)? Thinking about serving in the house of God? This event is for you! Join us for Leadership 101, an engaging session specially designed for new members or those who have recently joined NCA and want to learn more about our church's vision, structure, and how to get...",
+    "image": "assets/images/events/leadership.jpg",
+    "featured": true,
+    "url": "#"
+  },
+  {
+    "title": "Baptism",
+    "date": "2026-11-29T13:00:00",
+    "time": "1:00 pm - 3:00 pm",
+    "location": "New Covenant Assembly Main Campus",
+    "excerpt": "All baptism candidates are required to attend a Baptismal Class in preparation for this life-changing step. This class will equip you with the biblical understanding of baptism...",
+    "image": "assets/images/upcoming/harvest-up1.jpg",
+    "featured": false,
+    "url": "#"
   }
 ]

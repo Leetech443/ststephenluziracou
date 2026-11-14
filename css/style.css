@@ -188,7 +188,7 @@
         left: 0;
         min-width: 210px;
         /* Changed from var(--dark) to 85% opacity */
-        background: rgba(14, 16, 32, 0.65); 
+        background: rgba(14, 16, 32, 0.65);
         /* Adds a modern blur effect to the background */
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
@@ -946,15 +946,23 @@
 
     /* Hero slideshow */
     .slide:nth-child(1) {
-        --bg: url('../assets/images/hero/ch-hero1.png')
+        --bg: url('../assets/images/hero/ch-hero1.jpeg')
     }
 
     .slide:nth-child(2) {
-        --bg: url('../assets/images/hero/ch-hero2.jpg')
+        --bg: url('../assets/images/hero/ch-hero2.jpeg')
     }
 
     .slide:nth-child(3) {
-        --bg: url('../assets/images/hero/ch-hero3.jpg')
+        --bg: url('../assets/images/hero/ch-hero3.jpeg')
+    }
+
+    .slide:nth-child(4) {
+        --bg: url('../assets/images/hero/ch-hero4.jpeg')
+    }
+
+    .slide:nth-child(5) {
+        --bg: url('../assets/images/hero/ch-hero5.jpeg')
     }
 
     /* Ministry cards */
@@ -1006,7 +1014,7 @@
 
     /* About St Stephen's Luzira C.O.U */
     .pic {
-        --bg: url('../assets/images/about/ch-about1.png');
+        --bg: url('../assets/images/about/ch-about1.jpeg');
         background-position: center top
     }
 

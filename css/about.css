@@ -338,11 +338,11 @@ nav .nv.on {
 
 /* --- Image Paths (Gradients show if images are missing) ------------------- */
 .ph {
-    --bg: url('../assets/images/about/about-img1.jpg')
+    --bg: url('../assets/images/about/about-img1.jpeg')
 }
 
 .ab-1 {
-    --bg: url('../assets/images/about/ch-about1.png')
+    --bg: url('../assets/images/about/ch-about1.jpeg')
 }
 
 .ab-2 {

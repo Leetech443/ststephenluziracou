@@ -6,27 +6,20 @@
     "photo": "assets/images/clergy/vicar.jpg",
     "short": "Replace with a two-sentence introduction.",
     "facts": [
-      [
-        "Ordained",
-        "Year"
-      ],
-      [
-        "Serving at St Stephen since",
-        "Year"
-      ],
-      [
-        "Education",
-        "Degree, institution"
-      ],
-      [
-        "Family",
-        "Married with children"
-      ]
+      ["Ordained", "Year"],
+      ["Serving at St. Stephen's since", "Year"],
+      ["Education", "Degree, institution"],
+      ["Family", "Married with children"]
     ],
     "bio": [
-      "Paste the first paragraph of the full biography here: background, calling and early ministry.",
-      "Paste the second paragraph here: ministry at St Stephen Luzira and vision for the parish.",
-      "Paste any further paragraphs here: family, interests and a closing word."
+      {
+        "heading": "About & Ministry Journey",
+        "content": "<p>Paste the first paragraph of the full biography here: background, calling and early ministry.</p><p>Paste the second paragraph here: ministry at St. Stephen's Luzira and vision for the parish.</p>"
+      },
+      {
+        "heading": "A Message to the Congregation",
+        "content": "<p>Paste the closing message here.</p>"
+      }
     ]
   },
   {
@@ -36,42 +29,43 @@
     "photo": "assets/images/clergy/assistant-vicar.jpg",
     "short": "Rev. Solomon Matovu is a clergy member of Namirembe Diocese serving as the Assistant Vicar of Luzira Parish at St. Stephen's C.O.U. Luzira. Ordained on 8th December 2024, he is dedicated to preaching God's Word, pastoral care, discipleship, and nurturing a Christ-centred congregation.",
     "facts": [
-      [
-        "Ordained",
-        "8th December 2024"
-      ],
-      [
-        "Serving at St Stephen since",
-        "28th December 2024"
-      ],
-      [
-        "Education",
-        "Diploma in Theology; Bachelor's Degree in Industrial and Organisational Psychology, Makerere University"
-      ],
-      [
-        "Ministry Roles",
-        "Coordinator of Sunday School Ministry & Fathers' Union"
-      ],
-      [
-        "Family",
-        "Married to Mrs. Edith Matovu with three children"
-      ],
-      [
-        "Favourite Scripture",
-        "Hebrews 12:2 (KJV)"
-      ],
-      [
-        "Phone",
-        "+256 706 437063"
-      ]
+      ["Ordained", "8th December 2024"],
+      ["Serving at St. Stephen's since", "28th December 2024"],
+      ["Education", "Diploma in Theology<br>Bachelor's Degree in Industrial and Organisational Psychology"],
+      ["Ministry Roles", "Coordinator of Sunday School Ministry<br>Coordinator of Fathers' Union"],
+      ["Family", "Married to Mrs. Edith Matovu with three children"],
+      ["Favourite Scripture", "Hebrews 12:2 (KJV)"],
+      ["Phone", "+256 706 437063"]
     ],
     "bio": [
-      "About & Ministry Journey: Rev. Solomon Matovu is a clergy member of Namirembe Diocese, currently serving as the Assistant Vicar of Luzira Parish. His journey of faith began during his secondary school years when he gave his life to Jesus Christ while serving as a drummer in the Scripture Union at Progressive Citizens High School, Mukono. He later joined the choir at his home church, St. James Bukasa C.O.U., where church lay readers nurtured his spiritual growth, and went on to serve as Youth Chairperson and Mission Coordinator before undertaking three years of theological training. Prior to his current appointment, he served as a Church Curate supporting the Assistant Vicar of Luzira Parish. Ordained on 8th December 2024, he began serving at St. Stephen's C.O.U. Luzira on 28th December 2024, assisting the Parish Vicar in priestly duties preaching, leading prayer services, administering baptism, and assisting in Holy Eucharist while also serving as Coordinator of the Sunday School Ministry and Coordinator of the Fathers' Union.",
-      "Education & Formation: Rev. Solomon holds a Diploma in Theology and a Bachelor's Degree in Industrial and Organisational Psychology from Makerere University. His educational journey includes Ebenezer Integrated Primary School (Kirinya), Progressive Citizens High School (Mukono), Namagunga High School, and Makerere University.",
-      "Ministry Focus & Reflections: Passionate about seeing individuals transformed into committed followers of Jesus Christ, his ministry focuses on preaching and teaching God's Word, discipleship and spiritual formation, evangelism and missions, youth and children's ministry, pastoral care and counselling, and worship and music ministry. Serving at St. Stephen's C.O.U. Luzira an Archdeaconry Headquarters under the guidance of the Archdeacon, he emphasizes treating all Christians equally without bias and caring for both their spiritual and personal needs. His prayer is for a united congregation growing in faith, love, and service.",
-      "Scripture & Inspiration: His favourite Scripture is Hebrews 12:2 (KJV)\"Looking unto Jesus, the author and finisher of our faith\"alongside Acts 17:28, reflecting that his life and purpose are founded entirely in Christ. His personal guiding principle is: \"I confidently know that Christ lives; therefore, I will face my tomorrow.\"",
-      "Beyond the Pulpit: Rev. Solomon is married to Mrs. Edith Matovu and is a father of three children. Outside ministry, he is passionate about farming, enjoys playing and watching football and volleyball, visits relatives and friends, and loves going on walks and adventurous travels with his family.",
-      "Message to the Congregation: \"I encourage every member to remain in God's presence, love one another, love the ministry and treasure the privilege of dwelling in the house of the Lord. There are countless blessings in obeying God and living a life worthy of the calling we have received. Let us continue to walk together in faith, unity and love, faithfully serving the Lord in all that we do. May God bless St. Stephen's C.O.U. Luzira and make us a congregation that is continually growing in Christ and transforming lives for His glory.\""
+      {
+        "heading": "About & Ministry Journey",
+        "content": "<p>Rev. Solomon Matovu is a clergy member of Namirembe Diocese, currently serving as the Assistant Vicar of Luzira Parish. His journey of faith and ministry began during his secondary school years, when he gave his life to Jesus Christ while serving as a drummer in the Scripture Union at Progressive Citizens High School.</p><p>His commitment to Christian service later drew him into the choir at his home church, St. James Bukasa C.O.U., where he developed a close relationship with church lay readers who nurtured and followed his spiritual journey. Over the years, he served as a Youth Chairperson and Mission Coordinator before responding to God's call to ordained ministry.</p><p>Through theological training, prayer and perseverance amid various spiritual and personal challenges, he has continued to grow in his calling. He was ordained on 8th December 2024 and has since dedicated himself to preaching God's Word, pastoral care and the spiritual growth of the Church.</p><p>Before his current appointment, he served as a Church Curate, supporting the Assistant Vicar of Luzira Parish. He was ordained on 8th December 2024 and began serving at St. Stephen's C.O.U. Luzira on 28th December 2024.</p><p>Currently, as Assistant Vicar of Luzira Parish, he supports the Parish Vicar in carrying out priestly duties, including preaching, leading prayer services, administering the sacrament of baptism and assisting in the celebration of Holy Eucharist.</p><p>He also serves as the Coordinator of the Sunday School Ministry, overseeing the spiritual development of children, and as the Coordinator of the Fathers' Union.</p>"
+      },
+      {
+        "heading": "Education & Formation",
+        "content": "<p>Rev. Solomon Matovu's academic and theological background includes:</p><ul><li><strong>Theological Qualification:</strong> Diploma in Theology.</li><li><strong>Other Academic Qualification:</strong> Bachelor's Degree in Industrial and Organisational Psychology, Makerere University.</li></ul><p><strong>Educational Institutions:</strong></p><ul><li>Makerere University.</li><li>Namagunga High School.</li><li>Progressive Citizens High School, Mukono.</li><li>Ebenezer Integrated Primary School, Kirinya.</li></ul><p>His theological formation has equipped him for pastoral ministry, preaching, teaching and the spiritual care of God's people.</p>"
+      },
+      {
+        "heading": "Ministry Focus",
+        "content": "<p>Rev. Solomon is passionate about seeing the work of God manifested in people's lives and witnessing individuals transformed into committed followers of Jesus Christ.</p><p>His areas of ministry interest and service include:</p><ul><li>Preaching and teaching God's Word.</li><li>Discipleship and spiritual formation.</li><li>Evangelism, outreach and missions.</li><li>Youth and children's ministry.</li><li>Pastoral care and counselling.</li><li>Worship and music ministry.</li></ul><p>Through these areas of service, he seeks to nurture a Christ-centred congregation whose members grow in faith, demonstrate Christian love and actively participate in God's mission.</p>"
+      },
+      {
+        "heading": "Reflections",
+        "content": "<p>For Rev. Solomon, serving at St. Stephen's C.O.U. Luzira is a great privilege, particularly because it is an Archdeaconry Headquarters where he has the opportunity to serve God under the leadership and guidance of a senior priest, the Archdeacon.</p><p>Throughout his ministry journey, he has learned the importance of treating all Christians equally, without bias, and being attentive to the diverse needs of God's people. He believes that ministry goes beyond preaching and leading worship; it also involves caring for people and responding to their spiritual and personal needs.</p><p>One of the most meaningful experiences in his ministry has been witnessing people passionately give their lives to Jesus Christ and express a desire to be delivered from the works of Satan.</p><p>His hope and prayer for St. Stephen's C.O.U. Luzira is to see a united congregation, committed to serving God together and experiencing genuine spiritual transformation. He believes that a transformed Church is a growing Church, and prays that the congregation will continue to grow in faith, love and service.</p>"
+      },
+      {
+        "heading": "Scripture & Inspiration",
+        "content": "<p><strong>Favourite Scripture:</strong></p><p>\"Looking unto Jesus, the author and finisher of our faith.\" — Hebrews 12:2 (KJV).</p><p>This Scripture is meaningful to him because his life and purpose are founded entirely in the person of Jesus Christ. As Scripture reminds us in Acts 17:28, \"For in him we live, and move, and have our being.\"</p><p><strong>Personal Guiding Principle:</strong></p><p>\"I confidently know that Christ lives; therefore, I will face my tomorrow.\"</p><p>This conviction reminds him to approach every day with faith, courage and confidence in the Lord, knowing that Christ remains the foundation of his life and the source of his hope.</p>"
+      },
+      {
+        "heading": "Beyond the Pulpit",
+        "content": "<p>Beyond his ministry responsibilities, Rev. Solomon is a family man, a husband to Mrs. Edith Matovu and a father of three children. He enjoys playing and watching football and volleyball, and has a passion for farming.</p><p>He spends his free time tending to his farming activities, participating in and watching sporting activities, visiting relatives and friends, and enjoying walks and adventurous travels with his family.</p><p>These activities provide opportunities for family bonding, recreation and appreciating life beyond his pastoral responsibilities.</p>"
+      },
+      {
+        "heading": "A Message to the Congregation",
+        "content": "<p>\"I encourage every member to remain in God's presence, love one another, love the ministry and treasure the privilege of dwelling in the house of the Lord. There are countless blessings in obeying God and living a life worthy of the calling we have received. Let us continue to walk together in faith, unity and love, faithfully serving the Lord in all that we do. May God bless St. Stephen's C.O.U. Luzira and make us a congregation that is continually growing in Christ and transforming lives for His glory.\"</p>"
+      }
     ]
   },
   {
@@ -81,42 +75,42 @@
     "photo": "../assets/images/clergy/lay-reader.JPG",
     "short": "Mub. Julius Kinene is a commissioned Lay Reader at St. Stephen's Church of Uganda, Luzira, serving with a deep commitment to sound biblical teaching and Christian discipleship. Commissioned on 8th December 2024, he coordinates multiple parish and archdeaconry ministries to build spiritually mature believers.",
     "facts": [
-      [
-        "Commissioned",
-        "8th December 2024"
-      ],
-      [
-        "Serving at St Stephen since",
-        "October 2022 (Block Placement) / December 2024 (Official Posting)"
-      ],
-      [
-        "Education",
-        "Certificate in Christian Ministries; Diploma in Child Development and Children's Ministry, Uganda Christian University"
-      ],
-      [
-        "Key Leadership Roles",
-        "Chairperson of Lay Readers (Luzira Archdeaconry); Member of Namirembe Diocesan Synod & Council; Coordinator of Good Samaritan, CWF, CMF, Youth, and Boys & Girls Brigade"
-      ],
-      [
-        "Family",
-        "Married to Mrs. Sandra Kinene with three children"
-      ],
-      [
-        "Favourite Scripture",
-        "Isaiah 6:1 (KJV)"
-      ],
-      [
-        "Phone",
-        "+256 772 066 400"
-      ]
+      ["Commissioned", "8th December 2024"],
+      ["Serving at St. Stephen's since", "October 2022 (Block Placement)<br>December 2024 (Official Posting)"],
+      ["Education", "Certificate in Christian Ministries<br>Diploma in Child Development and Children's Ministry"],
+      ["Family", "Married to Mrs. Sandra Kinene with three children"],
+      ["Favourite Scripture", "Isaiah 6:1 (KJV)"],
+      ["Phone", "+256 772 066 400"]
     ],
     "bio": [
-      "About & Ministry Journey: Mub. Julius Kinene is a commissioned Lay Reader at St. Stephen's Church of Uganda, Luzira. Having accepted Jesus Christ as Lord and Saviour on 4th November 2004, his faith journey was shaped by resilience and discipline through early personal and educational challenges. Before joining St. Stephen's, he served as Secretary of the Brotherhood of St. Andrews in Mukono Diocese, Youth Chairperson of St. Luke's C.O.U. Seeta, Chairperson of the Anointed Worship Team, and Chaplain of Kampala International University. After completing a block placement at St. Stephen's C.O.U. Luzira in October 2022, he was commissioned as a Lay Reader on 8th December 2024 and officially posted to St. Stephen's. Alongside assisting clergy in liturgical, pastoral, evangelism, and discipleship duties, he serves as Coordinator of the Good Samaritan Ministry, Christian Women's Fellowship, Christian Men's Fellowship, and Youth Department (at Sub-parish and Parish levels), Coordinator of the Boys and Girls Brigade (Luzira Archdeaconry), Chairperson of the Lay Readers (Luzira Archdeaconry), and Member of both the Namirembe Diocesan Synod and Diocesan Council.",
-      "Education & Formation: Mub. Julius holds a Certificate in Christian Ministries (2022–2023) and a Diploma in Child Development and Children's Ministry (2021–2024) from Uganda Christian University, as well as additional certifications in Graphic Designing and Personal Effectiveness and Enterprise Development. His earlier schooling includes Naminya UMEA Primary School (PLE, 2001–2003), St. Cyprian High School, Kyabakadde (UCE, 2004–2008), and Bishop's Senior School, Mukono (UACE, 2009–2010).",
-      "Ministry Focus & Reflections: Deeply committed to sound biblical teaching and Christian doctrine, Mub. Julius places strong emphasis on baptism and confirmation preparation classes so believers are spiritually grounded. His ministry interests span preaching, discipleship, evangelism, youth and children's ministry, family and marriage ministry, pastoral care, community development, worship and music, and leadership development. Having witnessed how requiring baptism preparation classes transformed the congregation's seriousness toward the sacrament, he prays for a unified, spiritually vibrant Church working together in harmony.",
-      "Scripture & Inspiration: His favourite Scripture is Isaiah 6:1 (KJV)\"In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple\" reminding him that ministry begins with surrendering to God in His holiness. His personal guiding principle is: \"Faith lived out in action, bringing Christ closer to His people, for the glory of God and the transformation of lives.\"",
-      "Beyond the Pulpit: Julius is a devoted husband to Mrs. Sandra Kinene and a father of three children, and is the last born in a family of three. Outside church duties, he enjoys reading, biblical studies, football, athletics, and family time, and engages in graphic design, printing, and creative media for church and community projects alongside personal and enterprise development.",
-      "Message to the Congregation: \"Dear members of St. Stephen's Church of Uganda, Luzira, may we never lose our thirst and hunger for God and our love for His Son, Jesus Christ. May He unite us as one family, strengthen every department to work together in harmony and give each one of us a heart that is willing to serve. May our faith never remain in words alone, but be demonstrated through our love, unity and care for one another. Let us continue to grow in the knowledge of God's Word, remain steadfast in our faith and faithfully serve Him in all that we do. May the Lord strengthen us, unite us and make us a blessing to our generation and those to come. Amen.\""
+      {
+        "heading": "About & Ministry Journey",
+        "content": "<p>Mub. Julius Kinene is a commissioned Lay Reader at St. Stephen's Church of Uganda, Luzira, serving with a deep commitment to God's Word, Christian discipleship and the spiritual growth of the congregation.</p><p>His Christian journey is a testimony of God's grace, faithfulness and transforming power. Having accepted Jesus Christ as his Lord and Saviour on 4th November 2004, he has progressively grown in faith and Christian service. His journey has been shaped by resilience, discipline and a strong sense of responsibility, having overcome significant personal and educational challenges during his early years.</p><p>Before joining St. Stephen's, he served in various leadership capacities, including as Chaplain of Kampala International University, Youth Chairperson of St. Luke's C.O.U. Seeta in Mukono Diocese, and Chairperson of the Anointed Worship Team.</p><p>He was commissioned as a Lay Reader on 8th December 2024 and has since continued to serve in various ministries and leadership capacities within the Church. He is particularly passionate about grounding Christians in sound biblical teaching, nurturing spiritual maturity and helping believers discover and fulfil their God-given purpose.</p><p>Before his appointment at St. Stephen's, he served as Secretary of the Brotherhood of St. Andrews in Mukono Diocese, a Christian organisation dedicated to supporting needy children and mentoring boys and men. He subsequently served as Chaplain of Kampala International University before undertaking a block placement at St. Stephen's C.O.U. Luzira in October 2022. Following his commissioning as a Lay Reader on Sunday, 8th December 2024, he was officially posted to St. Stephen's, where he continues to serve.</p><p>As a Lay Reader, he assists the clergy in liturgical, pastoral, evangelism and discipleship ministries. His responsibilities include leading worship and prayers, preaching, reading Scripture, conducting pastoral visits and contributing to church development planning.</p><p><strong>Beyond his primary responsibilities, he serves in several leadership positions, including:</strong></p><ul><li><strong>Coordinator Roles:</strong><ul><li>Coordinator of the Good Samaritan Ministry at both Sub-parish and Parish levels.</li><li>Coordinator of the Christian Women's Fellowship at both Sub-parish and Parish levels.</li><li>Coordinator of the Christian Men's Fellowship at both Sub-parish and Parish levels.</li><li>Coordinator of the Youth Department at both Sub-parish and Parish levels.</li><li>Coordinator of the Boys and Girls Brigade, Luzira Archdeaconry.</li></ul></li><li><strong>Leadership & Synod Roles:</strong><ul><li>Chairperson of the Lay Readers, Luzira Archdeaconry.</li><li>Member of the Namirembe Diocesan Synod.</li><li>Member of the Namirembe Diocesan Council.</li></ul></li></ul>"
+      },
+      {
+        "heading": "Education & Formation",
+        "content": "<p>Mub. Julius Kinene's academic and theological formation reflects his commitment to Christian ministry, child development and continuous personal growth.</p><ul><li><strong>Theological and Ministry Qualifications:</strong><ul><li>Certificate in Christian Ministries (2022–2023).</li></ul></li><li><strong>Other Academic Qualifications:</strong><ul><li>Diploma in Child Development and Children's Ministry (2021–2024).</li><li>Uganda Advanced Certificate of Education (2009–2010).</li><li>Uganda Certificate of Education (2004–2008).</li><li>Primary Leaving Examination (2001–2003).</li></ul></li><li><strong>Institutions Attended:</strong><ul><li>Uganda Christian University.</li><li>Bishop's Senior School, Mukono.</li><li>St. Cyprian High School, Kyabakadde.</li><li>Naminya UMEA Primary School.</li></ul></li><li><strong>Additional Training and Certifications:</strong><ul><li>Certificate in Graphic Designing.</li><li>Certificate in Personal Effectiveness and Enterprise Development.</li></ul></li></ul><p>His training and educational background have equipped him with knowledge and practical skills in Christian ministry, child development, leadership, communication and creative work.</p>"
+      },
+      {
+        "heading": "Ministry Focus",
+        "content": "<p>Mub. Julius is passionate about serving God through teaching, discipleship and the development of spiritually grounded Christians. He strongly believes that believers should understand what they believe and why they believe it.</p><p>He places particular emphasis on sound biblical teaching and Christian doctrine, believing that Christians who are properly grounded in the Word of God become more confident in their faith, spiritually mature and less vulnerable to being carried away by teachings that contradict the Gospel.</p><p>This conviction informs his commitment to baptism and confirmation classes, which he regards not merely as church requirements but as important opportunities to establish a strong foundation for lifelong Christian living.</p><p><strong>His areas of ministry interest and service include:</strong></p><ul><li>Preaching and teaching God's Word.</li><li>Discipleship and spiritual formation.</li><li>Evangelism and outreach.</li><li>Youth and children's ministry.</li><li>Family and marriage ministry.</li><li>Pastoral care and counselling.</li><li>Community development.</li><li>Worship and music.</li><li>Leadership development.</li></ul><p>For him, ministry goes beyond holding a position in the Church. It is about touching lives, building people, raising faithful Christians and helping others discover and live out their God-given purpose.</p>"
+      },
+      {
+        "heading": "Reflections",
+        "content": "<p>For Mub. Julius, serving God at St. Stephen's C.O.U. Luzira is both a privilege and a responsibility. It provides an opportunity to use his gifts and abilities to serve God and His people through teaching the faith, nurturing believers, reaching out to young people and families, and contributing to the spiritual growth and development of the Church.</p><p>His ministry journey has taught him that ministry is deeply personal. It is about people, their lives, their struggles and their individual journeys with God. He has learned the importance of serving with humility, patience, compassion and perseverance, even when circumstances do not unfold as expected. He also recognises that preaching, teaching and prayer must be accompanied by listening, encouragement, guidance and intentional discipleship.</p><p>One of his most memorable ministry experiences involved insisting that parents and godparents attend baptism preparation classes before their children could be baptised. Although this decision initially challenged what had almost become a routine practice, it gradually transformed the congregation's understanding of baptism. Fellow ministers began taking baptism preparation more seriously, and members themselves started asking when the baptism classes would be held.</p><p>For him, this experience demonstrated how consistency, conviction and intentional teaching can transform attitudes and strengthen the spiritual foundations of a congregation.</p><p>His hope and prayer for St. Stephen's C.O.U. Luzira is to see a truly united Church in which every department, ministry, leader and member works together in harmony for the glory of God. He desires a congregation with a genuine thirst and hunger for God and His Son, Jesus Christ.</p><p>He prays that God will give the Church one heart and one purpose, remove divisions and strengthen its commitment to becoming a spiritually vibrant, welcoming and growing congregation that continues to shine for generations.</p>"
+      },
+      {
+        "heading": "Scripture & Inspiration",
+        "content": "<p><strong>Favourite Scripture:</strong></p><p>\"In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.\" — Isaiah 6:1 (KJV).</p><p>This Scripture reminds Mub. Julius that true ministry begins with an encounter with God. Seeing the Lord in His holiness challenges him to continually surrender the things within him that do not glorify God, including pride, selfishness, fear and anything that may hinder obedience.</p><p>It calls him to recognise God's authority, surrender his life to Him and allow Him to shape him into a vessel fit for His service. For him, ministry begins not with what he can do for God, but with who he is willing to become before Him.</p><p><strong>Personal Guiding Principle:</strong></p><p>\"Faith lived out in action, bringing Christ closer to His people, for the glory of God and the transformation of lives.\"</p><p>He believes that genuine faith must move beyond words and be demonstrated through service, love, sacrifice and action. His desire is to see a Church where every believer does not simply receive the faith but actively lives it, shares it and becomes a blessing to others.</p>"
+      },
+      {
+        "heading": "Beyond the Pulpit",
+        "content": "<p>Beyond his responsibilities in Church, Julius is a devoted husband to Mrs. Sandra Kinene and a father of three wonderful children. He is the last born in a family of three children and considers his family one of God's greatest blessings.</p><p>He enjoys reading, biblical studies, creative arts and design, as well as spending quality time with his family. He also has an interest in football, athletics and other outdoor activities that promote physical well-being.</p><p>Outside ministry, he engages in graphic design, printing and creative media, particularly for church and community projects. He also pursues personal development, explores income-generating opportunities and enjoys learning new skills that can improve his family's well-being and contribute positively to the community.</p>"
+      },
+      {
+        "heading": "A Message to the Congregation",
+        "content": "<p>\"Dear members of St. Stephen's Church of Uganda, Luzira, may we never lose our thirst and hunger for God and our love for His Son, Jesus Christ. May He unite us as one family, strengthen every department to work together in harmony and give each one of us a heart that is willing to serve.</p><p>May our faith never remain in words alone, but be demonstrated through our love, unity and care for one another. Let us continue to grow in the knowledge of God's Word, remain steadfast in our faith and faithfully serve Him in all that we do.</p><p>May the Lord strengthen us, unite us and make us a blessing to our generation and those to come. Amen.\"</p>"
+      }
     ]
   }
 ]

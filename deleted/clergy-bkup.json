@@ -5,10 +5,10 @@
     "role": "VICAR",
     "photo": "assets/images/clergy/vicar.jpg",
     "short": "Replace with a two-sentence introduction.",
-    "facts": [["Ordained", "Year"], ["Serving at St Stephen since", "Year"], ["Education", "Degree, institution"], ["Family", "Married with children"]],
+    "facts": [["Ordained", "Year"], ["Serving at St Stephen's since", "Year"], ["Education", "Degree, institution"], ["Family", "Married with children"]],
     "bio": [
       "Paste the first paragraph of the full biography here: background, calling and early ministry.",
-      "Paste the second paragraph here: ministry at St Stephen Luzira and vision for the parish.",
+      "Paste the second paragraph here: ministry at St Stephen's Luzira and vision for the parish.",
       "Paste any further paragraphs here: family, interests and a closing word."
     ]
   },
@@ -18,7 +18,7 @@
     "role": "ASSISTANT VICAR",
     "photo": "assets/images/clergy/assistant-vicar.jpg",
     "short": "Replace with a two-sentence introduction.",
-    "facts": [["Ordained", "Year"], ["Serving at St Stephen since", "Year"]],
+    "facts": [["Ordained", "Year"], ["Serving at St Stephen's since", "Year"]],
     "bio": ["Paste the full biography here, one paragraph per line.", "Add as many paragraphs as you need."]
   },
   {

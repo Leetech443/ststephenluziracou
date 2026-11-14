@@ -1,11 +1,16 @@
-/* Who We Are page: extras only. Loaded AFTER style.css, which still supplies header, footer, buttons, .sec, .split, .pic, .connect. */
+/* ==========================================================================
+   Who We Are / Clergy pages: extras only. 
+   Loaded AFTER style.css, which supplies header, footer, buttons, etc.
+   ========================================================================== */
+
 nav .nv.on {
     color: #ff9aa0
 }
 
+/* --- Page Hero (About & Beliefs) ------------------------------------------ */
 .ph {
     position: relative;
-    min-height: 400px;
+    min-height: 520px;
     display: flex;
     align-items: flex-end;
     color: #fff;
@@ -16,7 +21,8 @@ nav .nv.on {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(0deg, #0e1020ee 5%, #0e102066)
+    background: linear-gradient(0deg, #0e1020cc 0%, #0e102000 65%);
+    pointer-events: none;
 }
 
 .ph .wrap {
@@ -47,6 +53,7 @@ nav .nv.on {
     opacity: .6
 }
 
+/* --- General Layouts & Typography ----------------------------------------- */
 .ab-pic {
     min-height: 380px
 }
@@ -72,6 +79,7 @@ nav .nv.on {
     max-width: 60ch
 }
 
+/* --- Cards & Tiles -------------------------------------------------------- */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -95,6 +103,7 @@ nav .nv.on {
     color: #d9d2e6
 }
 
+/* --- Accordions (if used on About) ---------------------------------------- */
 .acc {
     display: grid;
     gap: 12px;
@@ -143,6 +152,7 @@ nav .nv.on {
     color: #d9d2e6
 }
 
+/* --- Clergy Cards (About page) -------------------------------------------- */
 .clergy .card-c {
     background: var(--white);
     color: var(--ink);
@@ -178,6 +188,16 @@ nav .nv.on {
     font-size: .95rem
 }
 
+.card-c .more {
+    display: inline-block;
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: .9rem;
+    color: var(--red);
+    border-bottom: 2px solid var(--red)
+}
+
+/* --- Join / Callout Section ----------------------------------------------- */
 .join {
     padding: 90px 0;
     text-align: center;
@@ -209,61 +229,7 @@ nav .nv.on {
     padding: 70px 24px 0
 }
 
-/* Photos: drop files in assets/images/about/ - gradients show until then */
-.ph {
-    --bg: url('../assets/images/about/about-img1.jpg')
-}
-
-.ab-1 {
-    --bg: url('../assets/images/about/ch-about1.png')
-}
-
-.ab-2 {
-    --bg: url('../assets/images/about/services.jpg')
-}
-
-.c1 {
-    --bg: url('../assets/images/about/clergy-1.jpg')
-}
-
-.c2 {
-    --bg: url('../assets/images/about/clergy-2.jpg')
-}
-
-.c3 {
-    --bg: url('../assets/images/clergy/lay-reader.JPG')
-}
-
-@media(max-width:960px) {
-    .ph {
-        min-height: 320px
-    }
-
-    .ph .wrap {
-        padding-top: 120px
-    }
-
-    .lt,
-    .join {
-        padding: 60px 0
-    }
-}
-
-/* Jump links clear the fixed header */
-html {
-    scroll-padding-top: 90px
-}
-
-/* Clergy: read-more link on cards + full profile page */
-.card-c .more {
-    display: inline-block;
-    margin-top: 14px;
-    font-weight: 700;
-    font-size: .9rem;
-    color: var(--red);
-    border-bottom: 2px solid var(--red)
-}
-
+/* --- Clergy Profile Page (Full detail view) ------------------------------- */
 .cd {
     display: grid;
     grid-template-columns: .8fr 1.2fr;
@@ -325,7 +291,98 @@ html {
     margin: 0 0 16px
 }
 
+/* --- Clergy Bio Sections (New structured styles) -------------------------- */
+.cd-text .bio-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 32px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--light);
+}
+
+.cd-text .bio-content {
+    margin-bottom: 24px;
+}
+
+.cd-text .bio-content p {
+    color: var(--ink);
+    margin: 0 0 16px;
+    line-height: 1.7;
+    text-align: justify; 
+    hyphens: auto;
+}
+
+.cd-text .bio-content ul {
+    margin: 0 0 20px;
+    padding-left: 20px;
+    color: var(--ink);
+}
+
+.cd-text .bio-content li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.cd-text .bio-content ul ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+    list-style-type: circle;
+    padding-left: 24px;
+}
+
+.cd-text .bio-content strong {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+/* --- Image Paths (Gradients show if images are missing) ------------------- */
+.ph {
+    --bg: url('../assets/images/about/about-img1.jpg')
+}
+
+.ab-1 {
+    --bg: url('../assets/images/about/ch-about1.png')
+}
+
+.ab-2 {
+    --bg: url('../assets/images/about/services.jpg')
+}
+
+.c1 {
+    --bg: url('../assets/images/about/clergy-1.jpg')
+}
+
+.c2 {
+    --bg: url('../assets/images/about/clergy-2.jpg')
+}
+
+.c3 {
+    --bg: url('../assets/images/clergy/lay-reader.JPG')
+}
+
+/* --- Global Adjustments --------------------------------------------------- */
+/* Jump links clear the fixed header */
+html {
+    scroll-padding-top: 110px
+}
+
+/* --- Mobile Responsiveness ------------------------------------------------ */
 @media(max-width:960px) {
+    .ph {
+        min-height: 420px;
+        /* Increased from the accidental 350px regression */
+    }
+
+    .ph .wrap {
+        padding-top: 120px
+    }
+
+    .lt,
+    .join {
+        padding: 60px 0
+    }
+
     .cd {
         grid-template-columns: 1fr;
         gap: 28px

@@ -10,7 +10,7 @@
         <div class="wrap">
             <div class="fg">
                 <div><a class="logo" href="index.html" style="color:#fff"><img src="assets/favicon.png" alt=""
-                            width="40" height="40"><span>St Stephen Luzira<small>CHURCH OF UGANDA</small></span></a>
+                            width="40" height="40"><span>St Stephen's Luzira<small>CHURCH OF UGANDA</small></span></a>
                 </div>
                 <div>
                     <h4>Contact</h4>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="copy"><span>© 2026 St Stephen Luzira C.O.U. All rights reserved.</span>
+            <div class="copy"><span>© 2026 St Stephen's Luzira C.O.U. All rights reserved.</span>
                 <a href="privacy.html">Privacy Policy</a>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <!-- <header class="hdr">
         <div class="wrap">
             <a class="logo" href="index.html"><img src="assets/favicon.png" alt="" width="40" height="40"><span>St
-                    Stephen Luzira<small>CHURCH OF UGANDA</small></span></a>
+                    Stephen's Luzira<small>CHURCH OF UGANDA</small></span></a>
             <nav id="nav" aria-label="Main">
                 <ul>
                     <li><a class="on" href="index.html">Home</a></li>

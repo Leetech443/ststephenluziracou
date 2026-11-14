@@ -1,0 +1,27 @@
+{
+  "columns": [
+    { "type": "brand" },
+    {
+      "type": "links", "title": "Contact",
+      "items": [
+        { "label": "+256 000 000 000",       "url": "tel:+256000000000" },
+        { "label": "ststephenluziracou.leetech.workers.dev",  "url": "ststephenluziracou.leetech.workers.dev" }
+      ]
+    },
+    {
+      "type": "text", "title": "Location",
+      "lines": ["Plot 6–22 Chorley Crescent", "Luzira, Kampala", "Uganda"]
+    },
+    {
+      "type": "social", "title": "Stay Connected",
+      "text": "Follow us on social media to stay plugged in to upcoming events and inspiring messages.",
+      "items": [
+        { "label": "YouTube",   "url": "https://www.youtube.com/@st.stephenluziracou4634" },
+        { "label": "Instagram", "url": "#" },
+        { "label": "TikTok",    "url": "https://www.tiktok.com/@st..stephens.cou.l" }
+      ]
+    }
+  ],
+  "copyright": "© 2026 St Stephen Luzira C.O.U. All rights reserved.",
+  "legal": { "label": "Privacy Policy", "url": "privacy.html" }
+}

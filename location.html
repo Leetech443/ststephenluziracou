@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Location | St. Stephen's Luzira C.O.U</title>
+    <meta name="description" content="Find your way to St. Stephen's Luzira C.O.U. View our location on the map, take a virtual tour, and see photos of our campus.">
+    <meta name="theme-color" content="#0e1020">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/location.css">
+</head>
+
+<body>
+    <header class="hdr" id="site-header"></header>
+
+    <main id="main">
+        <!-- Fixed Hero -->
+        <section class="ph loc-hero">
+            <div class="wrap">
+                <h1>Find Us</h1>
+                <div class="crumbs"><a href="index.html">Home</a><i>│</i>Location</div>
+            </div>
+        </section>
+
+        <!-- Section 1: Google Maps -->
+        <section class="sec map-sec">
+            <div class="wrap rv">
+                <div class="head" style="justify-content: center; text-align: center;">
+                    <div>
+                        <h2>Our Location</h2>
+                        <p class="sub">We are located in the heart of Luzira, Kampala. Come worship with us.</p>
+                    </div>
+                </div>
+                <div class="map-wrap">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.745828273636!2d32.64257531475383!3d0.3032195997432486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbfecaf7f9d7f%3A0x9c3f6737bd6580c9!2sSt.%20Stephen&#39;s%20Church%20of%20Uganda%20Luzira!5e0!3m2!1sen!2sug!4v1680000000000!5m2!1sen!2sug" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade" title="St Stephen Luzira Location Map">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Campus Tour Video -->
+        <section class="lt tour-sec">
+            <div class="wrap rv">
+                <div class="head" style="justify-content: center; text-align: center;">
+                    <div>
+                        <h2>Take a Tour of Our Campus</h2>
+                        <p class="sub">Get a glimpse of our sanctuary, grounds, and the spaces where our community gathers.</p>
+                    </div>
+                </div>
+                <div class="tour-video">
+                    <!-- Replace the src with your actual video file or YouTube embed if preferred -->
+                    <video controls poster="assets/images/location/tour-poster.jpg">
+                        <source src="assets/videos/campus-tour.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Photo Gallery -->
+        <section class="sec gallery-sec">
+            <div class="wrap rv">
+                <div class="head" style="justify-content: center; text-align: center;">
+                    <div>
+                        <h2>Life at St. Stephen</h2>
+                        <p class="sub">From aerial views to moments of fellowship, see the beauty of our church.</p>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <!-- Images will open in a lightbox when clicked -->
+                    <button class="gallery-item" aria-label="View Aerial View">
+                        <img src="assets/images/location/gallery-1.jpg" alt="Aerial view of St Stephen Luzira" loading="lazy">
+                    </button>
+                    <button class="gallery-item" aria-label="View Sanctuary">
+                        <img src="assets/images/location/gallery-2.jpg" alt="Inside the sanctuary" loading="lazy">
+                    </button>
+                    <button class="gallery-item" aria-label="View Fellowship Hall">
+                        <img src="assets/images/location/gallery-3.jpg" alt="Members in the fellowship hall" loading="lazy">
+                    </button>
+                    <button class="gallery-item" aria-label="View Church Grounds">
+                        <img src="assets/images/location/gallery-4.jpg" alt="The church grounds" loading="lazy">
+                    </button>
+                    <button class="gallery-item" aria-label="View Evening Service">
+                        <img src="assets/images/location/gallery-5.jpg" alt="Evening service and lighting" loading="lazy">
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" hidden>
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <img src="" alt="Enlarged photo" id="lightbox-img">
+    </div>
+
+    <footer id="site-footer"></footer>
+
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet you!</small></button>
+    <div id="pan">
+        <h3>Plan your first visit</h3>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <button id="top" aria-label="Back to top">↑</button>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/location.js"></script>
+</body>
+
+</html>

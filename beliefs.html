@@ -19,36 +19,8 @@
 </head>
 
 <body>
-    <header class="hdr">
-        <div class="wrap">
-            <a class="logo" href="index.html"><img src="assets/favicon.png" alt="" width="40" height="40"><span>St
-                    Stephen Luzira<small>CHURCH OF UGANDA</small></span></a>
-            <nav id="nav" aria-label="Main">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><button class="nv on" type="button">About Us</button>
-                        <div class="dd"><a href="about.html">Who We Are</a><a href="about.html#clergy">Our Clergy</a><a
-                                href="beliefs.html">Our Beliefs</a><a href="new.html">I’m New</a></div>
-                    </li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li><a href="watch.html">Watch Live</a></li>
-                    <li><button class="nv" type="button">Discover</button>
-                        <div class="dd"><a href="ministries.html">Departments</a><a
-                                href="ministries.html">Services</a><a href="devotional.html">Fellowships</a><a
-                                href="blog.html">Blog</a></div>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="right"><button id="sb" class="ico" aria-label="Search"><svg viewBox="0 0 24 24" width="20"
-                        height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                        <circle cx="11" cy="11" r="7" />
-                        <path d="M20 20l-4-4" />
-                    </svg></button><a class="btn" href="give.html">GIVE</a><button id="mb" aria-label="Menu"
-                    aria-expanded="false">Menu</button></div>
-        </div>
-    </header>
+    <!-- Loaded dynamically -->
+    <header class="hdr" id="site-header"></header>
 
     <main id="main">
         <section class="ph bel-hero">
@@ -165,53 +137,22 @@
         </section>
     </main>
 
-    <footer>
-        <div class="wrap">
-            <div class="fg">
-                <div><a class="logo" href="index.html" style="color:#fff"><img src="assets/favicon.png" alt=""
-                            width="40" height="40"><span>St Stephen Luzira<small>CHURCH OF UGANDA</small></span></a>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="tel:+256000000000">+256 000 000 000</a></li>
-                        <li><a href="mailto:office@yourchurch.org">office@yourchurch.org</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Location</h4>
-                    <ul>
-                        <li>Plot 00, Your Street</li>
-                        <li>Luzira, Kampala</li>
-                        <li>Uganda</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Stay Connected</h4>
-                    <p>Follow us on social media to stay plugged in to upcoming events and inspiring messages.</p>
-                    <div class="soc"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
-                </div>
-            </div>
-            <div class="copy"><span>© 2026 St Stephen Luzira C.O.U. All rights reserved.</span><a
-                    href="privacy.html">Privacy Policy</a></div>
-        </div>
-    </footer>
+    <!-- Loaded dynamically -->
+    <footer id="site-footer"></footer>
 
-    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet
-            you!</small></button>
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet you!</small></button>
     <div id="pan">
         <h3>Plan your first visit</h3>
-        <form data-ok="Thank you! We will look out for you."><input name="n" placeholder="Your name"
-                aria-label="Your name" required><input name="p" placeholder="Phone or email" aria-label="Phone or email"
-                required><input name="d" type="date" aria-label="Visit date"><button class="btn"
-                type="submit">Send</button></form>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
     </div>
     <button id="top" aria-label="Back to top">↑</button>
-    <div id="sr" class="sr" hidden>
-        <form id="sf" role="search"><input id="sq" type="search" placeholder="Search this site..."
-                aria-label="Search"><button class="btn" type="submit">Search</button></form><button id="sx" class="ico"
-            aria-label="Close search">✕</button>
-    </div>
+
+    <script src="js/layout.js"></script>
     <script src="js/main.js"></script>
 </body>
 

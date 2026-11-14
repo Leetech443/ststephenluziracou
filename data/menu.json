@@ -1,0 +1,35 @@
+{
+  "brand": {
+    "name": "St Stephen Luzira",
+    "tagline": "CHURCH OF UGANDA",
+    "logo": "assets/favicon.png",
+    "url": "index.html"
+  },
+  "items": [
+    { "label": "Home", "url": "index.html", "pages": ["index.html", ""] },
+    {
+      "label": "About Us",
+      "pages": ["clergy.html"],
+      "children": [
+        { "label": "Who We Are",   "url": "about.html",         "pages": ["about.html"] },
+        { "label": "Our Clergy",   "url": "about.html#clergy" },
+        { "label": "Our Beliefs",  "url": "beliefs.html",       "pages": ["beliefs.html"] },
+        { "label": "I’m New",      "url": "new.html",           "pages": ["new.html"] }
+      ]
+    },
+    { "label": "Events",     "url": "events.html",    "pages": ["events.html"] },
+    { "label": "Location",   "url": "location.html",  "pages": ["location.html"] },
+    { "label": "Watch Live", "url": "watch.html",     "pages": ["watch.html"] },
+    {
+      "label": "Discover",
+      "children": [
+        { "label": "Departments", "url": "ministries.html", "pages": ["ministries.html"] },
+        { "label": "Services",    "url": "ministries.html" },
+        { "label": "Fellowships", "url": "devotional.html", "pages": ["devotional.html"] },
+        { "label": "Blog",        "url": "blog.html",       "pages": ["blog.html"] }
+      ]
+    },
+    { "label": "Contact", "url": "contact.html", "pages": ["contact.html"] }
+  ],
+  "cta": { "label": "GIVE", "url": "give.html" }
+}

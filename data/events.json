@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Sunday Worship Service",
+    "date": "2026-06-05T09:00:00",
+    "time": "9:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Join us for our uplifting weekly worship service and fellowship."
+  },
+  {
+    "title": "Youth Ministry Gathering",
+    "date": "2026-06-08T16:00:00",
+    "time": "4:00 PM - 6:00 PM",
+    "location": "Youth Hall",
+    "description": "An interactive session filled with games, worship, and discussion for teens."
+  },
+  {
+    "title": "Community Outreach & Food Drive",
+    "date": "2026-06-15T10:00:00",
+    "time": "10:00 AM - 2:00 PM",
+    "location": "Community Center",
+    "description": "Helping local families in need through food distribution and support."
+  }
+]

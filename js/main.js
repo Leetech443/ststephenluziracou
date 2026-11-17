@@ -19,7 +19,7 @@
 
   // ---- Hero slideshow + rotating headline ----
   var sl = $$('.slide'), h = $('#rot'), i = 0, w = 0,
-      words = ['Passion for God', 'Establishing the Kingdom', 'Empowering Lives'];
+    words = ['Passion for God', 'Establishing the Kingdom', 'Empowering Lives'];
   if (!calm && sl.length) {
     setInterval(function () {
       sl[i].classList.remove('on');
@@ -57,7 +57,7 @@
   window.addEventListener('scroll', function () {
     var y = window.scrollY;
     if (topBtn) topBtn.classList.toggle('show', y > 600);
-    if (hdrEl) hdrEl.classList.toggle('solid', y > 60);
+    // if (hdrEl) hdrEl.classList.toggle('solid', y > 60);
   }, { passive: true });
   if (topBtn) topBtn.onclick = function () { window.scrollTo({ top: 0, behavior: 'smooth' }); };
 
@@ -130,7 +130,11 @@
     window.addEventListener('resize', mark); mark(); start();
   }
 
-  autoCarousel('evCar');
+  // Expose to window so dynamically loaded content can trigger it
+  window.autoCarousel = autoCarousel;
+  window.loopCarousel = loopCarousel;
+
+  // Only run immediately if the container has static content (like minCar)
   loopCarousel('minCar');
 
   // ---- Header-dependent bindings (run after layout.js injects the header) ----

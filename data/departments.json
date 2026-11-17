@@ -1,0 +1,323 @@
+[
+  {
+    "id": "mission",
+    "title": "Mission",
+    "chairperson": "Nnalongo Sylvia Walugembe",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/departments/mission-dept.jpg",
+    "short": "Spreading the love of Christ through outreach and service.",
+    "about": {
+      "preamble": "The Mission Department is dedicated to fulfilling the Great Commission by reaching out to those in need both locally and globally. We organize mission trips, community service projects, and partnerships with other organizations to share the love of Christ through action.",
+      "chairperson_message": "Dear brothers and sisters in Christ, we are called to be the hands and feet of Jesus. The harvest is plentiful but the laborers are few. I invite you to join us in this great commission, whether it's through praying, giving, or going on a mission trip. Together, we can bring hope to the hopeless.",
+      "leadership": [
+        {
+          "name": "Nnalongo Sylvia Walugembe",
+          "role": "Head of Mission"
+        }
+      ],
+      "additional_info": "We meet every first Saturday of the month at 4:00 PM in the Fellowship Hall to pray and plan our outreach activities."
+    },
+    "gallery": []
+  },
+  {
+    "id": "estates",
+    "title": "Estates, Planning & Development",
+    "chairperson": "Counsel Byron Mwanje",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/departments/estates-dept.jpeg",
+    "short": "Guiding the church's growth and development with strategic planning.",
+    "about": {
+      "preamble": "The Estates, Planning & Development department is responsible for managing the church's real estate assets, planning for future growth, and overseeing development projects to ensure our facilities are well-maintained.",
+      "chairperson_message": "We are committed to providing a safe, beautiful, and functional environment for our congregation to worship and fellowship. Your input and support are vital as we plan for the expansion of our church grounds.",
+      "leadership": [
+        {
+          "name": "Counsel Byron Mwanje",
+          "role": "Head of Estates, Planning & Development"
+        }
+      ],
+      "additional_info": "We are currently finalizing the architectural plans for the new multipurpose building."
+    },
+    "gallery": []
+  },
+  {
+    "id": "sunday-school",
+    "title": "Sunday School",
+    "chairperson": "Anthony Ssenkubuge",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/departments/sundayschool-dept.jpg",
+    "short": "Nurturing children in the knowledge and love of God.",
+    "about": {
+      "preamble": "The Sunday School department provides engaging, age-appropriate biblical teaching and activities for children, helping them build a strong foundation of faith and character from an early age.",
+      "chairperson_message": "Train up a child in the way he should go, and when he is old he will not depart from it. Our dedicated teachers work hard to make Sunday School a fun and spiritually enriching experience for your children.",
+      "leadership": [
+        {
+          "name": "Anthony Ssenkubuge",
+          "role": "Children's Ministry Chairperson"
+        }
+      ],
+      "additional_info": "Sunday School runs concurrently with the main Sunday service. Registration is open at the start of every term."
+    },
+    "gallery": [
+      "assets/images/departments/gallery/sunday-school/sunday-school-children1.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children2.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children3.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children4.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children5.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children6.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children7.jpg",
+      "assets/images/departments/gallery/sunday-school/sunday-school-children8.jpg"
+    ]
+  },
+  {
+    "id": "good-samaritan",
+    "title": "Good Samaritan",
+    "chairperson": "Mrs. Harriet Walusansa",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "short": "Extending hands of compassion to those facing hard times.",
+    "image": "assets/images/departments/good-samaritan-dept.jpg",
+    "about": {
+      "preamble": "The Good Samaritan ministry is dedicated to acts of kindness and benevolence, offering practical assistance and hope to individuals and families facing sudden hardship or crisis.",
+      "chairperson_message": "Jesus told us to love our neighbors as ourselves. Through this ministry, we strive to be the Good Samaritan to those who are hurting, providing tangible help and showing the unconditional love of God.",
+      "leadership": [
+        {
+          "name": "Mrs. Harriet Walusansa",
+          "role": "Chairperson"
+        }
+      ],
+      "additional_info": "We organize a monthly food and clothing drive for vulnerable families in the community."
+    },
+    "gallery": [
+      "assets/images/departments/gallery/good-samaritan-1.jpg",
+      "assets/images/departments/gallery/good-samaritan-2.jpg",
+      "assets/images/departments/gallery/good-samaritan-3.jpg",
+      "assets/images/departments/gallery/good-samaritan-4.jpg",
+      "assets/images/departments/gallery/good-samaritan-5.jpg"
+    ]
+  },
+  {
+    "id": "communication",
+    "title": "Communication",
+    "chairperson": "Owek. Ivan Mukasa",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "short": "Facilitating effective communication within the church.",
+    "image": "assets/images/departments/communication-dept.jpg",
+    "about": {
+      "preamble": "The Communication department is responsible for managing the church's communication channels, including social media, newsletters, and other forms of outreach to ensure the message is clearly conveyed.",
+      "chairperson_message": "In a world filled with noise, our goal is to clearly and creatively share the timeless truth of the Gospel. We strive to keep our congregation and the wider community informed and inspired.",
+      "leadership": [
+        {
+          "name": "Owek. Ivan Mukasa",
+          "role": "Head of Communication department"
+        }
+      ],
+      "additional_info": "Follow our official social media pages for daily updates, sermons, and event announcements."
+    },
+    "gallery": []
+  },
+  {
+    "id": "health",
+    "title": "Health",
+    "chairperson": "Insert Department Chairperson Name Here",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "short": "Promoting the physical and mental well-being of the church community.",
+    "image": "assets/images/departments/health-dept.jpg",
+    "about": {
+      "preamble": "The Health department is responsible for promoting the physical and mental well-being of the church community. We offer resources and support for maintaining a healthy lifestyle.",
+      "chairperson_message": "Our bodies are the temple of the Holy Spirit. We are here to support you in maintaining a healthy lifestyle through fitness programs, nutritional guidance, and mental health support.",
+      "leadership": [
+        {
+          "name": "Insert Department Chairperson Name Here",
+          "role": "Chairperson"
+        }
+      ],
+      "additional_info": "Free blood pressure and blood sugar screenings are available after service on the last Sunday of every month."
+    },
+    "gallery": []
+  },
+  {
+    "id": "welfare",
+    "title": "Welfare",
+    "chairperson": "Mrs. Ketty Kiru",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "short": "Caring for the physical and social needs of our church family.",
+    "image": "assets/images/departments/welfare-dept.jpg",
+    "about": {
+      "preamble": "The Welfare department provides care, comfort, and practical support to members during times of need, celebration, or distress, ensuring that no one in our church community feels forgotten.",
+      "chairperson_message": "We are a family, and families take care of one another. If you are going through a difficult time, or if you know someone who is, please reach out to us. We are here to support you with the love of Christ.",
+      "leadership": [
+        {
+          "name": "Mrs. Ketty Kiru",
+          "role": "Head of welfare department"
+        }
+      ],
+      "additional_info": "To report a need or request a hospital visit, please call the church office."
+    },
+    "gallery": []
+  },
+  {
+    "id": "education",
+    "title": "Education",
+    "chairperson": "Mrs. Flavia Mwanje",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "short": "Fostering spiritual growth and biblical literacy through teaching and training.",
+    "image": "assets/images/departments/education-dept.jpg",
+    "about": {
+      "preamble": "The Education department oversees Christian education initiatives, training programs, and workshops to deepen biblical understanding and equip members for service and spiritual maturity.",
+      "chairperson_message": "We believe that a church rooted in the Word of God is a church that will stand strong. We are dedicated to providing resources and training that help every believer grow in their knowledge of the Scriptures.",
+      "leadership": [
+        {
+          "name": "Mrs. Flavia Mwanje",
+          "role": "Education Cordinator"
+        }
+      ],
+      "additional_info": "Baptism and confirmation classes are held every Saturday at 3:00 PM."
+    },
+    "gallery": []
+  },
+  {
+    "id": "treasurer",
+    "title": "Treasurer",
+    
+    "short": "Managing the church's financial resources with integrity and accountability.",
+    "image": "assets/images/departments/treasurer-dept.jpg",
+    "about": {
+      "preamble": "The Treasurer department oversees financial administration, stewardship of tithes and offerings, budgeting, and accountability to ensure the church's resources are managed with integrity.",
+      "chairperson_message": "God requires us to be faithful stewards of the resources He has entrusted to us. We are committed to complete transparency and accountability in how we handle the finances of the church.",
+      "leadership": [
+        {
+          "name": "Mr. Joseph Ssekandi",
+          "role": "Treasurer"
+        }
+      ],
+      "additional_info": "Financial reports are presented to the church council on a quarterly basis."
+    },
+    "gallery": [
+      "assets/images/departments/gallery/treasurer-1.jpg",
+      "assets/images/departments/gallery/treasurer-2.jpg",
+      "assets/images/departments/gallery/treasurer-3.jpg",
+      "assets/images/departments/gallery/treasurer-4.jpg",
+      "assets/images/departments/gallery/treasurer-5.jpg"
+    ]
+  },
+  {
+    "id": "youth",
+    "title": "Youth",
+    "chairperson": "Eng. Itaaga Emmanuel",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/departments/youth-dept.jpg",
+    "short": "Nurturing, equipping and empowering young people to grow in their faith.",
+    "content": [
+      {
+        "heading": "1. Who We Are",
+        "html": "<p>The Youth Ministry of St. Stephen’s Church of Uganda, Luzira, is a vibrant fellowship dedicated to nurturing, equipping and empowering young people to grow in their faith and become responsible Christian leaders in the Church and wider community.</p><p>It provides a supportive environment where young people can deepen their relationship with God, discover their purpose, develop their talents and build meaningful relationships with one another.</p><p>Through Bible study, prayer, worship, fellowship, mentorship, outreach and community engagement, the Ministry encourages young people to live out their Christian values and positively influence their generation.</p><p>As an integral part of the Church, the Youth Ministry bridges the present and future of St. Stephen’s, fostering a generation that is spiritually grounded, actively involved in Church life and committed to serving God and others.</p>"
+      },
+      {
+        "heading": "2. Our Purpose",
+        "html": "<h4>Our Mission</h4><p>To nurture, equip and empower young people through God's Word, prayer, fellowship, mentorship and service, enabling them to grow in Christ and become effective ambassadors of His Kingdom.</p><h4>Our Vision</h4><p>A generation of Christ-centred, spiritually mature and purpose-driven young people, transformed by God's Word and equipped to positively impact the Church, society and future generations.</p><h4>Our Key Objectives</h4><ul><li><strong>Spiritual Growth:</strong> Promote spiritual maturity through Bible study, prayer, worship, discipleship and active participation in Church activities.</li><li><strong>Leadership and Personal Development:</strong> Equip young people with leadership skills, Christian values and life skills to fulfil their God-given potential.</li><li><strong>Fellowship and Community:</strong> Foster meaningful Christian relationships, unity, mentorship and a sense of belonging.</li><li><strong>Service and Outreach:</strong> Encourage young people to use their gifts and resources in serving the Church and positively influencing the wider community.</li></ul>"
+      },
+      {
+        "heading": "4. What We Do",
+        "html": "<p>The Youth Ministry undertakes a range of spiritual, social, developmental and community-oriented activities aimed at nurturing the holistic growth of young people.</p><ul><li><strong>Spiritual Growth and Discipleship:</strong> Bible study, prayer meetings, devotionals, worship and teaching sessions.</li><li><strong>Fellowship and Social Interaction:</strong> Physical and online fellowships, small-group discussions, testimonies and social activities.</li><li><strong>Leadership Development and Mentorship:</strong> Leadership training, mentorship programmes, life skills development.</li><li><strong>Worship, Music and Creative Arts:</strong> Participation in Church worship, music, drama, dance, cultural performances.</li><li><strong>Outreach, Community Service and Welfare:</strong> Evangelism, charitable activities, welfare support, community engagement, sports and physical fitness initiatives.</li></ul><h4>Regular Programmes and Activities</h4><table class='rich-table'><thead><tr><th>Programme</th><th>Schedule</th></tr></thead><tbody><tr><td>Online Youth Fellowship</td><td>Every Tuesday, 8:00–9:00 PM</td></tr><tr><td>Aerobics and Physical Fitness</td><td>Wednesday and Friday, 6:00–7:30 PM</td></tr><tr><td>Praise and Worship Practice</td><td>Monday, Tuesday, Wednesday and Friday, 6:00–7:30 PM</td></tr><tr><td>Boys and Girls Brigade Training</td><td>Monday–Sunday, 4:00–7:00 PM</td></tr><tr><td>Physical Youth Fellowship</td><td>Regular gatherings; specific schedule to be confirmed</td></tr><tr><td>Leadership and Mentorship</td><td>Periodic sessions</td></tr><tr><td>Outreach and Community Engagement</td><td>Periodic activities</td></tr><tr><td>Social and Recreational Activities</td><td>Organised periodically</td></tr></tbody></table>"
+      },
+      {
+        "heading": "5. Our Leadership",
+        "html": "<p>The Youth Ministry is led by a team that provides spiritual direction, coordination, guidance and opportunities for members to actively participate in the Ministry's activities.</p><h4>Current Leadership Team</h4><table class='rich-table'><thead><tr><th>Position</th><th>Name</th></tr></thead><tbody><tr><td>Chairperson</td><td>Eng. Emmanuel Itaaga</td></tr><tr><td>Vice Chairperson</td><td>Miss. Joanne Nambi</td></tr><tr><td>Secretary</td><td>Miss. Shalom Kwagala Namusisi</td></tr><tr><td>Vice Secretary</td><td>Mr. Anthony Ssenkubuge</td></tr><tr><td>Treasurer</td><td>Mr. Emmanuel Malalengela</td></tr><tr><td>Mission Coordinator</td><td>Miss. Peace Ngala</td></tr><tr><td>Publicity and Information</td><td>Mr. Michael Ampire</td></tr><tr><td>Health</td><td>Mr. Iman Nuwatuhanga</td></tr><tr><td>Good Samaritan</td><td>Mr. Samuel Sserubaga</td></tr><tr><td>Projects</td><td>Mr. Drake Ahambisibwe</td></tr><tr><td>Welfare</td><td>Miss. Brenda Ajwang</td></tr><tr><td>MDD</td><td>Mr. Bambino George Musoke</td></tr><tr><td>Sports</td><td>Mr. Edison Ngabirano</td></tr><tr><td>Education</td><td>Miss. Jesca Kagere</td></tr><tr><td>Daughters of the King (D.O.K.)</td><td>Miss. Alice Sumbatala</td></tr><tr><td>Sons of the King (S.O.K.)</td><td>Mr. Abel Myambi</td></tr><tr><td>Boys and Girls Brigade</td><td>Captain. Herbert Rwothomio</td></tr><tr><td>Resource Mobilisation</td><td>Owek. Ivan Mukasa</td></tr></tbody></table><p>The leadership works collaboratively with members by encouraging participation, promoting teamwork and accountability, identifying individual gifts and talents, and providing opportunities for members to take up responsibilities.</p>"
+      }
+    ],
+    "gallery": [
+      "assets/images/departments/gallery/youth/youth-conference-20241.jpg",
+      "assets/images/departments/gallery/youth/bgb-colors.jpg",
+      "assets/images/departments/gallery/youth/youth-sunday-2026-1.webp",
+      "assets/images/departments/gallery/youth/youth-sunday-2026-2.webp",
+      "assets/images/departments/gallery/youth/youth-sunday-2026-3.webp",
+      "assets/images/departments/gallery/youth/youth-conference-20242.jpg",
+      "assets/images/departments/gallery/youth/youth-conference-20251.jpg",
+      "assets/images/departments/gallery/youth/youth-conference-20252.jpg",
+      "assets/images/departments/gallery/youth/worship-team.jpg"
+    ]
+  },
+  {
+    "id": "choir",
+    "title": "Choir",
+    "short": "Leading the congregation in worship through song.",
+    "image": "assets/images/departments/choir-dept.jpg",
+    "about": {
+      "preamble": "The Choir department ministers to the congregation through music, leading the church in praise and worship, and presenting special musical selections that glorify God and edify the body of Christ.",
+      "chairperson_message": "Music is a powerful way to connect with God. As a choir, we strive for excellence in our musical offering, not just for the sake of performance, but to create an atmosphere where the Holy Spirit can move freely and touch hearts.",
+      "leadership": [
+        {
+          "name": "Mr. Daniel Kigozi",
+          "role": "Choir Director"
+        },
+        {
+          "name": "Ms. Sarah Nabirye",
+          "role": "Assistant Director"
+        }
+      ],
+      "additional_info": "Choir rehearsals are held every Wednesday from 6:00 PM to 8:00 PM. New voices are always welcome!"
+    },
+    "gallery": [
+      "assets/images/departments/gallery/choir-1.jpg",
+      "assets/images/departments/gallery/choir-2.jpg",
+      "assets/images/departments/gallery/choir-3.jpg",
+      "assets/images/departments/gallery/choir-4.jpg",
+      "assets/images/departments/gallery/choir-5.jpg"
+    ]
+  },
+  {
+    "id": "transport",
+    "title": "Transport",
+    "short": "Providing transportation services for the church community.",
+    "image": "assets/images/departments/transport-dept.jpg",
+    "about": {
+      "preamble": "The Transport department is responsible for providing transportation services for the church community. We offer various transportation options to help members get to and from church events and activities.",
+      "chairperson_message": "No member should be left behind due to a lack of transport. We work diligently to ensure everyone can access worship services and church events safely and conveniently.",
+      "leadership": [
+        {
+          "name": "Robert Ochieng",
+          "role": "Chairperson"
+        },
+        {
+          "name": "Michael Tumusiime",
+          "role": "Fleet Manager"
+        }
+      ],
+      "additional_info": "To request transport for an upcoming church event, please contact the department at least 48 hours in advance."
+    },
+    "gallery": [
+      "assets/images/departments/gallery/transport-1.jpg",
+      "assets/images/departments/gallery/transport-2.jpg",
+      "assets/images/departments/gallery/transport-3.jpg",
+      "assets/images/departments/gallery/transport-4.jpg",
+      "assets/images/departments/gallery/transport-5.jpg"
+    ]
+  },
+  {
+    "id": "pwds",
+    "title": "PWDs",
+    "short": "Ensuring accessibility, inclusion, and support for persons with disabilities.",
+    "image": "assets/images/departments/pwds-dept.jpg",
+    "about": {
+      "preamble": "The PWDs Coordinator department champions inclusion, ensuring that church facilities, programs, and fellowships are fully accessible and welcoming to persons with disabilities.",
+      "chairperson_message": "Every person is fearfully and wonderfully made by God. We are committed to creating an environment where persons with disabilities can fully participate in the life of the church and experience the love of Christ.",
+      "leadership": [
+        {
+          "name": "Esther Nakato",
+          "role": "Coordinator"
+        },
+        {
+          "name": "Paul Onyango",
+          "role": "Assistant Coordinator"
+        }
+      ],
+      "additional_info": "We offer specialized support and sign language interpretation during the main Sunday service."
+    },
+    "gallery": [
+      "assets/images/departments/gallery/pwds-1.jpg",
+      "assets/images/departments/gallery/pwds-2.jpg",
+      "assets/images/departments/gallery/pwds-3.jpg",
+      "assets/images/departments/gallery/pwds-4.jpg",
+      "assets/images/departments/gallery/pwds-5.jpg"
+    ]
+  }
+]

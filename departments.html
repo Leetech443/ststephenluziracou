@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Departments | St. Stephen's Luzira C.O.U</title>
+    <meta name="description" content="Discover the various departments and fellowships at St. Stephen's Luzira C.O.U.">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/departments.css">
+</head>
+
+<body>
+    <header class="hdr" id="site-header"></header>
+
+    <main id="main">
+        <!-- Directory Hero -->
+        <section class="ph departments-hero">
+            <div class="wrap">
+                <h1>Departments</h1>
+                <div class="crumbs"><a href="index.html">Home</a><i>│</i>Departments</div>
+            </div>
+        </section>
+
+        <section class="sec departments-sec">
+            <div class="wrap rv">
+                <div class="head dept-header">
+                    <div>
+                        <h2>Find Your Place to Belong</h2>
+                        <p class="sub">
+                            God has given each of us unique gifts. Explore our departments and fellowships to find where
+                            you can connect, grow, and serve alongside others.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- The Grid Container -->
+                <div class="departments-grid" id="departments-grid">
+                    <p>Loading departments…</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet
+            you!</small></button>
+    <div id="pan">
+        <h3>Plan your first visit</h3>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <button id="top" aria-label="Back to top">↑</button>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/departments.js"></script>
+</body>
+
+</html>

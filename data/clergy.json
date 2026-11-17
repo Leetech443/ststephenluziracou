@@ -26,7 +26,7 @@
     "id": "assistant-vicar",
     "name": "Rev. Solomon Matovu",
     "role": "ASSISTANT VICAR",
-    "photo": "assets/images/clergy/assistant-vicar.jpg",
+    "photo": "../assets/images/clergy/rev-assistant-vicar.jpeg",
     "short": "Rev. Solomon Matovu is a clergy member of Namirembe Diocese serving as the Assistant Vicar of Luzira Parish at St. Stephen's C.O.U. Luzira. Ordained on 8th December 2024, he is dedicated to preaching God's Word, pastoral care, discipleship, and nurturing a Christ-centred congregation.",
     "facts": [
       ["Ordained", "8th December 2024"],

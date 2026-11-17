@@ -68,6 +68,50 @@
     return li;
   }
 
+  // function buildHeader(menu) {
+  //   var hdr = document.getElementById('site-header');
+  //   if (!hdr || !menu) return;
+  //   hdr.innerHTML = '';
+  //   var wrap = el('div', 'wrap');
+  //   wrap.appendChild(buildBrand(menu.brand || {}));
+
+  //   var nav = el('nav');
+  //   nav.id = 'nav';
+  //   nav.setAttribute('aria-label', 'Main');
+  //   var ul = el('ul');
+  //   (menu.items || []).forEach(function (it) { ul.appendChild(buildNavItem(it)); });
+  //   nav.appendChild(ul);
+  //   wrap.appendChild(nav);
+
+  //   var right = el('div', 'right');
+  //   var sb = el('button', 'ico');
+  //   sb.id = 'sb';
+  //   sb.type = 'button';
+  //   sb.setAttribute('aria-label', 'Search');
+  //   sb.innerHTML =
+  //     '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">' +
+  //     '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>';
+  //   right.appendChild(sb);
+
+  //   if (menu.cta && menu.cta.url) {
+  //     var cta = el('a', 'btn', menu.cta.label);
+  //     cta.href = menu.cta.url;
+  //     right.appendChild(cta);
+  //   }
+
+  //   var mb = el('button', null, 'Menu');
+  //   mb.id = 'mb';
+  //   mb.type = 'button';
+  //   mb.setAttribute('aria-label', 'Menu');
+  //   mb.setAttribute('aria-expanded', 'false');
+  //   right.appendChild(mb);
+
+  //   wrap.appendChild(right);
+  //   hdr.appendChild(wrap);
+  // }
+
+  /* In layout.js, find the buildHeader function and update the end of it: */
+
   function buildHeader(menu) {
     var hdr = document.getElementById('site-header');
     if (!hdr || !menu) return;
@@ -75,13 +119,15 @@
     var wrap = el('div', 'wrap');
     wrap.appendChild(buildBrand(menu.brand || {}));
 
+    // Create a container for the right side
+    var rightGroup = el('div', 'header-right-group');
+
     var nav = el('nav');
     nav.id = 'nav';
     nav.setAttribute('aria-label', 'Main');
     var ul = el('ul');
     (menu.items || []).forEach(function (it) { ul.appendChild(buildNavItem(it)); });
     nav.appendChild(ul);
-    wrap.appendChild(nav);
 
     var right = el('div', 'right');
     var sb = el('button', 'ico');
@@ -106,7 +152,12 @@
     mb.setAttribute('aria-expanded', 'false');
     right.appendChild(mb);
 
-    wrap.appendChild(right);
+    // Append nav and right actions into the right group
+    rightGroup.appendChild(nav);
+    rightGroup.appendChild(right);
+
+    // Append the group to the main wrapper
+    wrap.appendChild(rightGroup);
     hdr.appendChild(wrap);
   }
 

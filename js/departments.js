@@ -43,15 +43,24 @@
             var card = el('a', 'department-card');
             card.href = 'department.html?id=' + encodeURIComponent(dep.id);
 
-            // Fix: Apply background directly to the element instead of using --bg
+            // Apply a bottom-only dark gradient + the image so the text is readable
             if (dep.image) {
-                card.style.background = "url('" + dep.image + "') center/cover";
+                card.style.background = "linear-gradient(to top, rgba(14,16,32,0.95) 0%, rgba(14,16,32,0) 60%), url('" + dep.image + "') center/cover";
             }
 
             var content = el('div', 'department-content');
+
+            // 1. Title
             content.appendChild(el('h3', '', dep.title));
 
-            var btn = el('span', 'btn-department', 'Learn More');
+            // 2. Short text from JSON
+            if (dep.short) {
+                var shortText = el('p', 'dept-short-text', dep.short);
+                content.appendChild(shortText);
+            }
+
+            // 3. Button
+            var btn = el('span', 'btn-department', 'View More');
             content.appendChild(btn);
 
             card.appendChild(content);
@@ -59,7 +68,6 @@
         });
     }
 
-    // --- Render Detail Page ---
     // --- Render Detail Page ---
     function renderDetail(container, data) {
         var id = new URLSearchParams(location.search).get('id');

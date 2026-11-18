@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fellowship Details | St. Stephen's Luzira C.O.U</title>
+    <meta name="theme-color" content="#0e1020">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/fellowships.css">
+</head>
+
+<body>
+    <header class="hdr" id="site-header"></header>
+
+    <main id="main">
+        <!-- Detail Hero -->
+        <section class="ph fellowship-detail-hero">
+            <div class="wrap">
+                <h1 id="fellowship-hero-title">Loading...</h1>
+                <div class="crumbs">
+                    <a href="index.html">Home</a><i>│</i>
+                    <a href="fellowships.html">Fellowships</a><i>│</i>
+                    <span id="fellowship-hero-bread">Details</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec fellowship-detail-sec">
+            <div class="wrap rv">
+                <!-- JS populates this container -->
+                <div class="detail-grid" id="fellowship-detail">
+                    <p>Loading details…</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet
+            you!</small></button>
+    <div id="pan">
+        <h3>Plan your first visit</h3>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <button id="top" aria-label="Back to top">↑</button>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/fellowships.js"></script>
+</body>
+
+</html>

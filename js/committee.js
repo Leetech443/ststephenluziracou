@@ -26,7 +26,7 @@
                 
                 // Image
                 var img = el('img');
-                img.src = member.image;
+                img.src = member.image || member.photo;
                 img.alt = member.name;
                 img.loading = 'lazy';
                 card.appendChild(img);
@@ -36,6 +36,11 @@
                 
                 // Role
                 card.appendChild(el('span', '', member.role));
+
+                // Read More Link
+                var moreLink = el('a', 'more', 'View Profile →');
+                moreLink.href = 'committee-profile.html?id=' + encodeURIComponent(member.id);
+                card.appendChild(moreLink);
 
                 container.appendChild(card);
             });

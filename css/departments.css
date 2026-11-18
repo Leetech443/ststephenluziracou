@@ -74,26 +74,16 @@
     color: var(--white);
     position: relative;
     overflow: hidden;
-    background-color: var(--purple);
+    /* Removed the solid background-color here because the image is applied inline */
     box-shadow: 0 4px 15px var(--purple-shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.department-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(79, 18, 127, 0.75);
-    transition: background 0.3s ease;
-}
+/* Removed the purple overlay (::before) completely */
 
 .department-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px var(--purple-shadow);
-}
-
-.department-card:hover::before {
-    background: rgba(79, 18, 127, 0.55);
 }
 
 .department-content {
@@ -102,7 +92,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 8px;
 }
 
 .department-content h3 {
@@ -110,6 +100,20 @@
     font-weight: 700;
     margin: 0;
     line-height: 1.2;
+}
+
+/* Styling for the new short text */
+.dept-short-text {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin: 0 0 12px 0;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Limits to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .btn-department {

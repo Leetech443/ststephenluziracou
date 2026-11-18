@@ -213,7 +213,7 @@ nav .nv.on {
 
 .committee-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 24px;
 }
 
@@ -254,6 +254,24 @@ nav .nv.on {
     color: var(--red);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+/* Committee Card Read More Link */
+/* Committee Card Read More Link */
+.committee-card .more {
+    display: block; /* Forces it onto its own line */
+    width: fit-content; /* Keeps the underline tight to the text */
+    margin: 16px auto 0; /* Centers it perfectly under the role */
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--purple-muted); /* Changed from red */
+    border-bottom: 2px solid var(--purple); /* Changed from red */
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.committee-card .more:hover {
+    color: var(--red); /* Turns red when hovered */
+    border-color: var(--red);
 }
 
 /* Join Section */
@@ -385,6 +403,9 @@ nav .nv.on {
 .cd-text .bio-content li {
     margin-bottom: 10px;
     line-height: 1.6;
+    text-align: justify; /* Added this */
+    hyphens: auto;       /* Added this */
+
 }
 
 .cd-text .bio-content ul ul {
@@ -430,7 +451,8 @@ html {
 
 @media(max-width:960px) {
     .ph {
-        min-height: 420px;
+        min-height: 350px;
+        background-position: center top;
     }
 
     .ph .wrap {

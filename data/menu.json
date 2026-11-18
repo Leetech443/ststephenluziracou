@@ -28,10 +28,6 @@
           ]
         },
         {
-          "label": "Our Clergy",
-          "url": "about.html#clergy"
-        },
-        {
           "label": "Our Beliefs",
           "url": "beliefs.html",
           "pages": [
@@ -39,11 +35,12 @@
           ]
         },
         {
-          "label": "I’m New",
-          "url": "new.html",
-          "pages": [
-            "new.html"
-          ]
+          "label": "Our Clergy",
+          "url": "about.html#clergy"
+        },
+        {
+          "label": "Church Committee",
+          "url": "about.html#committee"
         }
       ]
     },
@@ -62,15 +59,15 @@
       ]
     },
     {
-      "label": "Watch Live",
-      "url": "watch.html",
-      "pages": [
-        "watch.html"
-      ]
-    },
-    {
       "label": "Discover",
       "children": [
+        {
+          "label": "Services",
+          "url": "services.html",
+          "pages": [
+            "services.html"
+          ]
+        },
         {
           "label": "Departments",
           "url": "departments.html",
@@ -80,14 +77,11 @@
           ]
         },
         {
-          "label": "Services",
-          "url": "departments.html"
-        },
-        {
           "label": "Fellowships",
-          "url": "devotional.html",
+          "url": "fellowships.html",
           "pages": [
-            "devotional.html"
+            "fellowships.html",
+            "fellowship.html"
           ]
         },
         {
@@ -95,6 +89,13 @@
           "url": "blog.html",
           "pages": [
             "blog.html"
+          ]
+        },
+        {
+          "label": "Gallery",
+          "url": "gallery.html",
+          "pages": [
+            "gallery.html"
           ]
         }
       ]

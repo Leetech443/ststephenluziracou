@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Services Page Specific Styles
+   ========================================================================== */
+
+/* --- Hero Image Override --- */
+.services-hero {
+    --bg: url('../assets/images/about/about-img1.jpeg');
+    /* Change this to your preferred services hero image */
+}
+
+/* --- Main Section (White Background) --- */
+.services-sec {
+    background: var(--white);
+    color: var(--purple);
+    padding: 80px 0 100px;
+}
+
+.service-category {
+    margin-bottom: 60px;
+}
+
+.service-category:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Section Headers --- */
+.service-header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--light);
+    padding-bottom: 15px;
+}
+
+.service-header h2 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    color: var(--purple);
+    font-weight: 800;
+    margin: 0;
+}
+
+/* --- Grid Layout --- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+/* --- Service Cards --- */
+.service-block {
+    background: var(--white);
+    border: 1px solid var(--purple-muted);
+    border-radius: 8px;
+    /* Matched to your sharp corners preference */
+    padding: 30px;
+    box-shadow: 0 4px 15px var(--purple-shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px var(--purple-shadow);
+}
+
+.service-block h3 {
+    font-size: 1.3rem;
+    color: var(--purple);
+    margin: 0 0 8px 0;
+    font-weight: 700;
+}
+
+.service-time {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--red);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.service-desc {
+    font-size: 1rem;
+    color: var(--purple-muted);
+    margin: 0;
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+}

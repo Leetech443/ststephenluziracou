@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Committee Profile | St. Stephen's Luzira C.O.U</title>
+    <meta name="description" content="Profile of our church committee members.">
+    <meta name="theme-color" content="#0e1020">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <header class="hdr" id="site-header"></header>
+
+    <main id="main">
+        <section class="ph">
+            <div class="wrap">
+                <h1 id="cName">Committee Profile</h1>
+                <div class="crumbs">
+                    <a href="index.html">Home</a><i>│</i>
+                    <a href="about.html#committee">Committee</a><i>│</i>
+                    <span id="cCrumb">Profile</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="lt">
+            <div class="wrap" id="cBody">
+                <p>Loading profile…</p>
+            </div>
+        </section>
+        
+        <section class="sec" id="cMore" hidden>
+            <div class="wrap">
+                <h2 class="rv">Other Committee Members</h2>
+                <div class="cards" id="cOthers" style="margin-top:28px"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet you!</small></button>
+    <div id="pan">
+        <h3>Plan your first visit</h3>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <button id="top" aria-label="Back to top">↑</button>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/committee-profile.js"></script>
+</body>
+
+</html>

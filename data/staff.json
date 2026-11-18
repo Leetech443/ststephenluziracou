@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Rev. Solomon Matovu",
+        "role": "Assistant Vicar",
+        "phone": "+256 706 437063"
+    },
+    {
+        "name": "Mub. Julius Kinene",
+        "role": "Lay Reader",
+        "phone": "+256 772 066 400",
+        "email": ""
+    },
+    {
+        "name": "Mr. Daniel Kyambadde",
+        "role": "Church Secretary",
+        "phone": "+256 772 222 222"
+    },
+    {
+        "name": "Mrs. Joyce Obbo",
+        "role": "Treasurer",
+        "phone": "+256 782 333 333"
+    }
+]

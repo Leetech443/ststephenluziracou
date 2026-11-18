@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | St. Stephen's Luzira C.O.U</title>
+    <meta name="description" content="Get in touch with St. Stephen's Luzira C.O.U. Contact our church staff, find our location, or send us a message.">
+    <meta name="theme-color" content="#0e1020">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <header class="hdr" id="site-header"></header>
+
+    <main id="main">
+        <!-- Page Hero -->
+        <section class="ph">
+            <div class="wrap">
+                <h1>Contact Us</h1>
+                <div class="crumbs"><a href="index.html">Home</a><i>│</i>Contact</div>
+            </div>
+        </section>
+
+        <section class="sec contact-sec">
+            <div class="wrap contact-grid">
+                
+                <!-- Left Side: Contact Form -->
+                <div class="contact-form-wrap rv">
+                    <h2>Send Us a Message</h2>
+                    <p class="sub">Have a question, a prayer request, or need to get in touch with our team? Fill out the form below and we will get back to you shortly.</p>
+                    
+                    <!-- Note: The data-ok attribute triggers the success message in main.js -->
+                    <form class="contact-form" data-ok="Thank you! Your message has been sent successfully. We will get back to you soon.">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can we help you?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Right Side: Staff Contacts -->
+                <div class="staff-contacts-wrap rv">
+                    <h2>Church Staff Contacts</h2>
+                    <p class="sub">You can also reach out to our staff members directly.</p>
+                    
+                    <div class="staff-list" id="staff-list">
+                        <p>Loading contacts...</p>
+                    </div>
+                    
+                    <div class="general-contact mt-4">
+                        <h3>General Office</h3>
+                        <p>
+                            <strong>Location:</strong> Plot 6–22 Chorley Crescent, Luzira, Kampala<br>
+                            <strong>Phone:</strong> +256 000 000 000<br>
+                            <strong>Email:</strong> office@ststephensluzira.org
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <button id="bub" aria-expanded="false" aria-controls="pan">Plan Your First Visit<small>We can’t wait to meet you!</small></button>
+    <div id="pan">
+        <h3>Plan your first visit</h3>
+        <form data-ok="Thank you! We will look out for you.">
+            <input name="n" placeholder="Your name" aria-label="Your name" required>
+            <input name="p" placeholder="Phone or email" aria-label="Phone or email" required>
+            <input name="d" type="date" aria-label="Visit date">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <button id="top" aria-label="Back to top">↑</button>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

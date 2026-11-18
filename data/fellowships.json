@@ -1,0 +1,114 @@
+[
+  {
+    "id": "mothers-union",
+    "title": "Mothers' Union",
+    "category": "Fellowship",
+    "chairperson": "Head of Mothers' Union",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/mothers-union.jpg",
+    "short": "Simple text explain the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About Mothers' Union",
+        "html": "<p>Add about Mother's Union here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "fathers-union",
+    "title": "Fathers' Union",
+    "category": "Fellowship",
+    "chairperson": "Head of Father's Union",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/fu-card.jpg",
+    "short": "Simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Fathers' Union",
+        "html": "<p>Add about the Fathers' Union here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "christian-men-fellowship",
+    "title": "Christian Men's Fellowship",
+    "category": "Fellowship",
+    "chairperson": "Mr. Richard Muhanguzi",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/cmf.jpg",
+    "short": "Simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Christian Men's Fellowship",
+        "html": "<p>Add information about the Christian Men's Fellowship here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "christian-women-fellowship",
+    "title": "Christian Women's Fellowship",
+    "category": "Fellowship",
+    "chairperson": "Ms. Christine Peruth",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/cwf.jpg",
+    "short": "Simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Christian Women's Fellowship",
+        "html": "<p>Add information about the Christian Women's Fellowship here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "boys-and-girls-brigade",
+    "title": "Boys and Girls Brigade",
+    "category": "Fellowship",
+    "chairperson": "Brigade Captain",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/bgb.jpg",
+    "short": "A simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Boys and Girls Brigade",
+        "html": "<p>Add information about the Boys and Girls Brigade here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "sons-of-the-king",
+    "title": "Sons of the King",
+    "category": "Fellowship",
+    "chairperson": "Mr. Mayambi Abel",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/sok.webp",
+    "short": "A simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Sons of the King",
+        "html": "<p>Add information about the Sons of the King here.</p>"
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "daughters-of-the-king",
+    "title": "Daughters of the King",
+    "category": "Fellowship",
+    "chairperson": "Head of DOK",
+    "chairperson_image": "assets/images/committee/default.jpg",
+    "image": "assets/images/fellowships/dok.webp",
+    "short": "A simple message explaining the purpose of the fellowship here.",
+    "content": [
+      {
+        "heading": "About the Daughters of the King",
+        "html": "<p>Add information about the Daughters of the King here.</p>"
+      }
+    ],
+    "gallery": []
+  }
+]

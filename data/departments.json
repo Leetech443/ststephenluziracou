@@ -175,9 +175,10 @@
     "gallery": []
   },
   {
-    "id": "treasurer",
-    "title": "Treasurer",
-    
+    "id": "treasury",
+    "title": "Treasury",
+    "chairperson": "Mrs. Joyce Obbo",
+    "chairperson_image": "assets/images/committee/default.jpg",
     "short": "Managing the church's financial resources with integrity and accountability.",
     "image": "assets/images/departments/treasurer-dept.jpg",
     "about": {

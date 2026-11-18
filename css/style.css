@@ -209,9 +209,6 @@ nav a.on {
     left: 0;
     min-width: 210px;
     background: rgba(43, 30, 53, 0.95);
-    /* backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px); */
-    /* border: 1px solid var(--white-muted); */
     border-radius: 5px;
     padding: 8px;
     display: none;
@@ -249,7 +246,7 @@ li:focus-within>.dd {
     font: inherit
 }
 
-/* HERO - Gradient overlay removed */
+/* HERO */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -266,7 +263,8 @@ li:focus-within>.dd {
     inset: 0;
     opacity: 0;
     transition: opacity 1.2s;
-    background: var(--bg, var(--purple)) center/cover no-repeat
+    /* Changed to center top to prevent zooming into faces */
+    background: var(--bg, var(--purple)) center top/cover no-repeat;
 }
 
 .slide.on {
@@ -516,7 +514,6 @@ li:focus-within>.dd {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
     max-width: 1200px;
-    /* Expanded from 960px */
     margin: 44px auto 36px;
     text-align: left;
 }
@@ -1152,9 +1149,7 @@ footer a:hover {
         top: 100%;
         left: 0;
         min-width: 210px;
-        /* Changed to rgba: 85% opaque purple */
         background: rgba(79, 18, 127, 0.85);
-        /* Adds a blur behind the dropdown to keep text legible */
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px);
         border: 1px solid var(--white-muted);
@@ -1170,6 +1165,11 @@ footer a:hover {
     .devo,
     .fg {
         grid-template-columns: 1fr
+    }
+
+    .hero {
+        /* Added to reduce zoom on mobile */
+        min-height: 85vh;
     }
 
     .hero .btns {

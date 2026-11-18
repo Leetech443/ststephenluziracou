@@ -1,0 +1,25 @@
+{
+  "activeMethods": [
+    {
+      "id": "mtn-momo",
+      "name": "MTN Mobile Money",
+      "accountName": "St. Stephen's Luzira C.O.U",
+      "merchantCode": "192957",
+      "instructions": [
+        "Dial *165*3# on your MTN phone.",
+        "Select Option 1 (Merchant Code).",
+        "Select 'Merchant Code'.",
+        "Enter Merchant Code: <strong>192957</strong>.",
+        "Enter the amount you wish to give.",
+        "Enter your Mobile Money PIN to confirm.",
+        "You will receive a confirmation SMS."
+      ]
+    }
+  ],
+  "futureMethods": [
+    "Airtel Money",
+    "Bank Transfer",
+    "Visa / Mastercard (Online)",
+    "PayPal (International Giving)"
+  ]
+}

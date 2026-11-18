@@ -177,7 +177,8 @@
   {
     "id": "treasurer",
     "title": "Treasurer",
-    
+    "chairperson": "Mrs. Flavia Mwanje",
+    "chairperson_image": "assets/images/committee/default.jpg",
     "short": "Managing the church's financial resources with integrity and accountability.",
     "image": "assets/images/departments/treasurer-dept.jpg",
     "about": {

@@ -72,16 +72,19 @@
       "label": "Discover",
       "children": [
         {
+          "label": "Services",
+          "url": "services.html",
+          "pages": [
+            "services.html"
+          ]
+        },
+        {
           "label": "Departments",
           "url": "departments.html",
           "pages": [
             "departments.html",
             "department.html"
           ]
-        },
-        {
-          "label": "Services",
-          "url": "departments.html"
         },
         {
           "label": "Fellowships",

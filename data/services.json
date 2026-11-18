@@ -1,0 +1,32 @@
+{
+  "sunday": [
+    {
+      "title": "First Service",
+      "time": "6:30 AM - 8:00 AM",
+      "description": "An early morning traditional service with Holy Communion."
+    },
+    {
+      "title": "Second Service",
+      "time": "8:30 AM - 10:00 AM",
+      "description": "Our main family service with Sunday School for children."
+    },
+    {
+      "title": "Third Service",
+      "time": "10:30 AM - 12:30 PM",
+      "description": "A contemporary youth and young adult focused service."
+    }
+  ],
+  "midweek": [
+    {
+      "title": "Morning Glory",
+      "time": "Monday - Saturday, 6:00 AM",
+      "description": "Start your day with prayer and devotion."
+    },
+    {
+      "title": "Healing and Deliverance Service",
+      "time": "Thursday, 5:30 PM - 8:30 PM",
+      "description": "A time for reflection, prayer, and spiritual renewal."
+    }
+  ],
+  "special": []
+}

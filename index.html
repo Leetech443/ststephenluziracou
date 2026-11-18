@@ -27,11 +27,12 @@
     <header class="hdr" id="site-header"></header>
     <main id="main">
         <section class="hero">
-            <div class="slide on" style="--g:linear-gradient(160deg,#3a1030,#4f127f 60%,#b4242c)"></div>
-            <div class="slide" style="--g:linear-gradient(160deg,#0e1020,#24376b 60%,#4f127f)"></div>
-            <div class="slide" style="--g:linear-gradient(160deg,#2a0a10,#b4242c 55%,#0e1020)"></div>
-            <div class="slide" style="--g:linear-gradient(160deg,#2a0a10,#b4242c 55%,#0e1020)"></div>
-            <div class="slide" style="--g:linear-gradient(160deg,#2a0a10,#b4242c 55%,#0e1020)"></div>
+            <!-- Removed the inline --g gradients -->
+            <div class="slide on"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
             <div class="wrap">
                 <div>
                     <h1 id="rot" aria-live="off">Passion for God</h1>
@@ -46,15 +47,16 @@
                 <h2 class="rv">A church with a mandate<span class="to">to</span><em>Raise Mighty People</em></h2>
                 <p class="welcome rv">You are always welcome here.</p>
                 <div class="boxes rv">
-                    <a class="box" href="new.html" style="--a:#4f127f;--b:#24376b">
+                    <!-- Removed inline --a and --b -->
+                    <a class="box" href="new.html">
                         <h3>I’m New</h3>
                         <p>We are glad you are here. Here is how to take your next step.</p><span>Find Your Feet</span>
                     </a>
-                    <a class="box" href="contact.html" style="--a:#b4242c;--b:#4f127f">
+                    <a class="box" href="contact.html">
                         <h3>Ask Me Anything</h3>
                         <p>Questions about our church? We are here to help.</p><span>Get Connected</span>
                     </a>
-                    <a class="box" href="location.html" style="--a:#0e1020;--b:#b4242c">
+                    <a class="box" href="location.html">
                         <h3>Location to Church</h3>
                         <p>Need our location information? Follow the map for help.</p><span>Find Your Way</span>
                     </a>
@@ -70,19 +72,14 @@
                         <p class="sub">Plug in and stay connected to our inspiring events.</p>
                     </div><a class="btn ghost" href="events.html">View All Events</a>
                 </div>
+
+                <!-- Empty container for JS to populate -->
                 <div class="car auto rv" id="evCar">
-                    <div class="flyer" style="--a:#4f127f;--b:#b4242c"><b>Church Harvest</b><span>All Services · 6:30am
-                            · 8:30am · 10:30am
-                        </span></div>
-                    <div class="flyer" style="--a:#24376b;--b:#4f127f"><b>Carols by Candlelight</b><span>28th Nov ·
-                            2:00pm
-                        </span></div>
-                    <div class="flyer" style="--a:#b4242c;--b:#0e1020"><b>Major thanks giving services</b><span>Sat 20
-                            Dec ·
-                            6:00 PM</span></div>
+                    <p style="color: var(--white); padding: 20px;">Loading events...</p>
                 </div>
             </div>
         </section>
+
 
         <section class="sec">
             <div class="wrap split">
@@ -145,24 +142,13 @@
                     <div>
                         <h2>Departments &amp; Fellowships</h2>
                         <p class="sub">Find your place to belong, serve and grow.</p>
-                    </div><a class="btn ghost" href="ministries.html">View All</a>
+                    </div>
+                    <a class="btn ghost" href="departments.html">View All</a>
                 </div>
+
+                <!-- Empty container for dynamic population -->
                 <div class="car auto feat rv" id="minCar">
-                    <a class="mc" href="ministries.html" style="--a:#24376b;--b:#4f127f">
-                        <h3>Sunday School</h3><span>Department</span>
-                    </a>
-                    <a class="mc" href="ministries.html" style="--a:#b4242c;--b:#4f127f">
-                        <h3>Youth &amp; Young Adults</h3><span>Department</span>
-                    </a>
-                    <a class="mc" href="ministries.html" style="--a:#4f127f;--b:#0e1020">
-                        <h3>Mothers’ Union</h3><span>Fellowship</span>
-                    </a>
-                    <a class="mc" href="ministries.html" style="--a:#0e1020;--b:#b4242c">
-                        <h3>Fathers’ Union</h3><span>Fellowship</span>
-                    </a>
-                    <a class="mc" href="ministries.html" style="--a:#4f127f;--b:#24376b">
-                        <h3>Fellowship Groups</h3><span>Fellowship</span>
-                    </a>
+                    <p style="color: var(--white); padding: 20px;">Loading departments...</p>
                 </div>
             </div>
         </section>
@@ -181,7 +167,7 @@
             </div>
         </section>
 
-        <section class="sec sermon">
+        <section class="sec red sermon">
             <div class="wrap split">
                 <div class="rv">
                     <div class="eyebrow">LATEST SERMON</div>
@@ -239,6 +225,8 @@
     <button id="top" aria-label="Back to top">↑</button>
     <script src="js/layout.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/home-events.js"></script>
+    <script src="js/home-departments.js"></script>
 </body>
 
 </html>

@@ -1,22 +1,25 @@
-/* Our Beliefs page: alternating image + text rows. Loaded after style.css and about.css. */
+/* Our Beliefs page - White background for readability */
 .ph.bel-hero {
     --bg: url('../assets/images/beliefs/beliefs-hero.jpg')
 }
 
+/* Override .sec to be white with purple text */
 .sec.bel-sec {
-    padding: 30px 0 70px
+    padding: 40px 0 80px;
+    background: var(--white);
+    color: var(--purple);
 }
 
 .bel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    gap: 80px;
     align-items: center;
-    padding: 64px 0
+    padding: 80px 0
 }
 
 .bel+.bel {
-    border-top: 1px solid #ffffff18
+    border-top: 1px solid var(--purple-muted);
 }
 
 .bel.rev .bel-img {
@@ -25,38 +28,43 @@
 
 .bel-img {
     width: 100%;
-    max-width: 460px;
+    max-width: 500px;
     justify-self: center;
     aspect-ratio: 1/1;
     border-radius: var(--r);
-    background: var(--bg, none) center/cover, linear-gradient(145deg, var(--purple), var(--red));
-    box-shadow: 0 24px 60px #0007
+    background: var(--bg, none) center/cover, var(--grad);
+    box-shadow: 0 24px 60px var(--purple-shadow);
 }
 
 .bel h2 {
     font-size: clamp(1.7rem, 4vw, 2.8rem);
     text-transform: uppercase;
     letter-spacing: .02em;
-    margin-bottom: 14px
+    margin-bottom: 14px;
+    color: var(--purple);
 }
 
 .bel.alt h2 {
-    color: #ff9aa0
+    color: var(--red);
 }
 
 .bel .ref {
     font-weight: 700;
     font-size: .95rem;
     margin: 0 0 12px;
-    color: #fff
+    color: var(--red);
 }
 
 .bel p {
     margin: 0;
-    color: #d9d2e6
+    color: var(--purple-muted);
+    text-align: justify;
+    hyphens: auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
 
-/* Photos / illustrations: save in assets/images/beliefs/ (a gradient shows until you do) */
+/* Image Paths */
 .b-bible {
     --bg: url('../assets/images/beliefs/bible.png')
 }
@@ -93,6 +101,17 @@
     --bg: url('../assets/images/beliefs/return.jpg')
 }
 
+@media(min-width: 1440px) {
+    .bel-img {
+        max-width: 600px;
+    }
+
+    .bel {
+        gap: 100px;
+        padding: 100px 0;
+    }
+}
+
 @media(max-width:960px) {
     .bel {
         grid-template-columns: 1fr;
@@ -106,5 +125,9 @@
 
     .bel-img {
         max-width: 380px
+    }
+
+    .bel p {
+        font-size: 1rem;
     }
 }
